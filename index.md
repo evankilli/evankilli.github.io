@@ -7,3 +7,6 @@ layout: default
 I am a senior studying geography at Middlebury College and am excited to dip my feet deeper into the world of GIScience
 
 - [Gravity Model of Spatial Interaction](garvity/gravity.md)
+
+## Blog
+- [What is Open Source GIScience?](musings/opensource.md)
