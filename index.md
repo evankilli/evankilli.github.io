@@ -10,4 +10,4 @@ I am a senior studying geography at Middlebury College and am excited to dip my 
 - [Gravity Model of Spatial Interaction](garvity/gravity.md)
 
 ## Blog
-- [What is Open Source GIScience?](musings/opensource.md)
+- [What is Open Source GIScience?](blogs/opensource.md)
