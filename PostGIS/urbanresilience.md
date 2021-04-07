@@ -28,6 +28,8 @@ Luckily, planet_osm_point and planet_osm_polygon, two layers containing all data
 
 The entire script for this analysis is available [here](resilience.sql).
 
+Unfortunately, some issues were encountered when attempting to count residences within a certain radius of clinics, so the analysis of the process used to conduct this project and discussion of results are incomplete.
+
 INSERT MAP OF WARDS WITH CLINICS
 
 ### 1) Isolate clinics for analysis
