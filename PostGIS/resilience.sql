@@ -174,6 +174,7 @@ create table wards_w_res_cnt as
 
 --------------------------------------------------------------------------------
 /* 8 count how many residences are within 1mi of a clinic */
+-- WHY ISNT THIS WORKING
 
 ALTER TABLE res_union ADD COLUMN res_access INTEGER;
 -- add access to residential table
