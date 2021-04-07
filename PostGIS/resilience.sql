@@ -141,6 +141,122 @@ UNION
 SELECT osm_id, building, way as geom
 FROM res_osm_point
 
+----------------------------------------------------------------------------------------------------
+
+/* 7 count number of residences in each ward */
+create table res_wards as
+  select
+  res_union.building as building,
+  res_union.osm_id as osm_id,
+  res_union.geom as point_geom,
+  wards.fid as fid
+  from res_union
+  join wards
+  on st_intersects(wards.geom, res_union.geom)
+  -- creating a table that joins ward id to each residence points
+
+ create table resward_cnt as
+   select fid, count(osm_id)
+   from res_wards
+   group by fid
+  -- creating a table that groups and counts residences in each ward
+
+create table wards_w_res_cnt as
+  select
+  resward_cnt.count as count
+  resward_cnt.fid as fid
+  wards.ward_name as ward_name
+  wards.geom as geom
+  from resward_cnt
+  inner join wards
+  on resward_cnt.fid = wards.fid
+-- joining resward_cnt w ward geometries to get a map of wards with counts of residences
+
+--------------------------------------------------------------------------------
+/* 8 count how many residences are within 1mi of a clinic */
+
+ALTER TABLE res_union ADD COLUMN res_access INTEGER;
+-- add access to residential table
+
+UPDATE res_union
+SET res_access = 1
+FROM med_union
+WHERE ST_DWITHIN(res_union.geom, med_union.geom, 1609.34)
+-- make access equal one when residence is within 1mi/1609.34m of a clinic
+
+
+
+CREATE TABLE res_within_clinic AS
+SELECT *
+FROM res_union
+WHERE res_access = 1
+-- table with only residences within buffer
+
+--------------------------------------------------------------------------------
+
+/* 9 join residential points within buffer zone to wards with count, count total
+number of residences within buffer, and calc percentage */
+
+create table wards_w_access as
+  select
+  a.fid, count(b.res_access) as med_access
+  from wards_w_res_cnt a
+  join res_within_clinic b
+  on st_intersects(a.geom, b.geom)
+  group by a.fid
+-- count residences with access in each ward
+
+create table wards_final as
+    select
+    wards_w_res_cnt.fid as fid,
+    wards_w_res_cnt.ward_name as name,
+    wards_w_res_cnt.count as total_count,
+    wards_w_access.med_access as access_count,
+    wards.geom as geom
+    from wards_w_res_cnt
+    inner join wards_w_access
+    on wards_w_res_cnt.fid = wards_w_access.fid
+-- join the wards with number with access to the table with the names,
+-- total count, and geom
+
+ALTER TABLE wards_final
+ADD COLUMN pct_access real;
+UPDATE wards_final
+SET pct_access = (access_count/total_count)*100
+-- calculate percentage
+
+
+
+
+------------------- scratch work (mostly from figuring out how to calculate residences within wards) ----------------------------------------------------------------
+select osm_id, count(res_union.geom)
+FROM
+  (from
+    select res_union.*, wards.fid as fid
+    re_union inner join wards
+    on st_within(res_union.geom, wards.geom)) as a
+
+    CREATE TABLE wards_join AS
+    SELECT
+    wards.fid as fid, wards.ward_name as ward_name, wards.geom as geom1,
+    COUNT(osm_id) as total_ct
+    FROM wards
+    JOIN res_union
+    ON ST_Intersects(wards.geom, res_union.geom)
+    GROUP BY wards.fid, wards.ward_name
+
+    create table wards_join as
+      select fid as fid, ward_name as ward_name, geom as geom 1
+      from wards
+
+    select *
+    from wards_join
+    full outer join res_union
+    on ST_Intersects (wards.geom, res_union.geom)
+    group by fid
+
+    update res_union
+      add column fid
 
 
 
