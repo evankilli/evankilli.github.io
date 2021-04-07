@@ -8,6 +8,8 @@ I am a senior studying geography at Middlebury College and am excited to dip my 
 
 ## GIScience Analyses
 - [Gravity Model of Spatial Interaction](garvity/gravity.md)
+- [ROSGEN Stream Classification in GRASS GIS]
+- [Urban Resilience: Access to Medical Care in Dar-es-Salaam](urbanresilience.md)
 
 ## Blog
 - [What is Open Source GIScience?](blogs/opensource.md)
