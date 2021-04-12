@@ -174,7 +174,21 @@ create table wards_w_res_cnt as
 
 --------------------------------------------------------------------------------
 /* 8 count how many residences are within 1mi of a clinic */
--- WHY ISNT THIS WORKING
+SELECT addgeometrycolumn('evan','res_union','utmgeom',32737,'POINT',2);
+UPDATE res_union
+SET utmgeom = ST_Transform(geom, 32737);
+--prepare residences for analysis
+
+SELECT addgeometrycolumn('evan','med_union','utmgeom',32737,'POINT',2);
+UPDATE med_union
+SET utmgeom = ST_Transform(geom, 32737);
+-- prepare clinics for Analysis
+
+SELECT addgeometrycolumn('evan','wards_w_res_cnt','utmgeom',32737,'POLYGON',2);
+UPDATE wards_w_res_cnt
+SET utmgeom = ST_Transform(geom, 32737);
+-- prepare wards for analysis
+
 
 ALTER TABLE res_union ADD COLUMN res_access INTEGER;
 -- add access to residential table
@@ -182,10 +196,14 @@ ALTER TABLE res_union ADD COLUMN res_access INTEGER;
 UPDATE res_union
 SET res_access = 1
 FROM med_union
-WHERE ST_DWITHIN(res_union.geom, med_union.geom, 1609.34)
+WHERE ST_DWITHIN(res_union.utmgeom, med_union.utmgeom, 1609.34);
 -- make access equal one when residence is within 1mi/1609.34m of a clinic
 
-
+select *
+from res_union
+where res_access is null
+limit 1000;
+-- lets check
 
 CREATE TABLE res_within_clinic AS
 SELECT *
@@ -213,19 +231,27 @@ create table wards_final as
     wards_w_res_cnt.ward_name as name,
     wards_w_res_cnt.count as total_count,
     wards_w_access.med_access as access_count,
-    wards.geom as geom
+    wards_w_res_cnt.geom as geom
     from wards_w_res_cnt
-    inner join wards_w_access
+    full outer join wards_w_access
     on wards_w_res_cnt.fid = wards_w_access.fid
 -- join the wards with number with access to the table with the names,
 -- total count, and geom
 
+update wards_final
+  set access_count = 0
+  where access_count is null
+-- make it 0 instead of null
+
 ALTER TABLE wards_final
-ADD COLUMN pct_access real;
+ADD COLUMN pct_access float(8);
 UPDATE wards_final
-SET pct_access = (access_count/total_count)*100
+SET pct_access = access_count*1.0/total_count*1.0
 -- calculate percentage
 
+delete from med_union
+where name = 'Hospitali ya Wilaya Muranga' or  name = 'KEREGE Dispensary' or  name = 'Kisarawe Hospital'
+--get rid of hospitals that somehow ended up outside of DES
 
 
 
