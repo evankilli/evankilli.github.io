@@ -167,11 +167,97 @@ create table wards_w_res_cnt as
 -- joining resward_cnt w ward geometries to get a map of wards with counts of residences
 ```
 
-### Additional steps to come; needs editing to produce final analysis
+### 6) Count number of residences within 1mi of medical care
+```sql
+SELECT addgeometrycolumn('evan','res_union','utmgeom',32737,'POINT',2);
+UPDATE res_union
+SET utmgeom = ST_Transform(geom, 32737);
+--prepare residences for analysis
+
+SELECT addgeometrycolumn('evan','med_union','utmgeom',32737,'POINT',2);
+UPDATE med_union
+SET utmgeom = ST_Transform(geom, 32737);
+-- prepare clinics for Analysis
+
+SELECT addgeometrycolumn('evan','wards_w_res_cnt','utmgeom',32737,'POLYGON',2);
+UPDATE wards_w_res_cnt
+SET utmgeom = ST_Transform(geom, 32737);
+-- prepare wards for analysis
+
+
+ALTER TABLE res_union ADD COLUMN res_access INTEGER;
+-- add access to residential table
+
+UPDATE res_union
+SET res_access = 1
+FROM med_union
+WHERE ST_DWITHIN(res_union.utmgeom, med_union.utmgeom, 1609.34);
+-- make access equal one when residence is within 1mi/1609.34m of a clinic
+
+select *
+from res_union
+where res_access is null
+limit 1000;
+-- lets check
+
+CREATE TABLE res_within_clinic AS
+SELECT *
+FROM res_union
+WHERE res_access = 1
+-- create a table with only the residences within buffer for counting
+```
+
+### 7) Join the residences with access to medical care to the wards, count them, calculate percentage, and tidy it up!
+
+```sql
+create table wards_w_access as
+  select
+  a.fid, count(b.res_access) as med_access
+  from wards_w_res_cnt a
+  join res_within_clinic b
+  on st_intersects(a.geom, b.geom)
+  group by a.fid
+-- count residences with access in each ward
+
+create table wards_final as
+    select
+    wards_w_res_cnt.fid as fid,
+    wards_w_res_cnt.ward_name as name,
+    wards_w_res_cnt.count as total_count,
+    wards_w_access.med_access as access_count,
+    wards_w_res_cnt.geom as geom
+    from wards_w_res_cnt
+    full outer join wards_w_access
+    on wards_w_res_cnt.fid = wards_w_access.fid
+-- join the wards with number with access to the table with the names, total count, and geom
+
+update wards_final
+  set access_count = 0
+  where access_count is null
+-- make it 0 instead of null so that we can calculate cleanly
+
+ALTER TABLE wards_final
+ADD COLUMN pct_access float(8);
+UPDATE wards_final
+SET pct_access = access_count*1.0/total_count*1.0
+-- calculate percentage
+
+delete from med_union
+where name = 'Hospitali ya Wilaya Muranga' or  name = 'KEREGE Dispensary' or  name = 'Kisarawe Hospital'
+--get rid of hospitals that somehow ended up outside of DES so it looks pretty
+```
+
+<p align="center">
+  <img height="600" src="resilience.png">
+  </p>
+
 
 ## Discussion
 
-Discussion to come once analysis is complete
+Somewhat unsurprisingly, it's immediately apparent from the map produced by this analysis that clinics and other care points for medical care - here defined as what has been marked as a hospital, doctor, or clinic in OpenStreetMap - are heavily clustered in the central areas of Dar-es-Salaam. While medical care certainy exists outside this area, points of care are few and far between, limiting access in many areas of the city, with points of care being especially sparse in the East/Southeast of the city. It should be noted, however, that this could potentially be a selection error, as central, densely populated areas of the city would be more likely to have been comprehensively mapped in OpenStreetMap.
+
+
+
 
 ## Resources
 
