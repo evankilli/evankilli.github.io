@@ -22,15 +22,17 @@ INSTRUCTIONS FOR HOW TO LOAD INTO POSTGIS DATABASE ARE INCOMPLETE: The wards can
 
 ### Open Street Map
 
-Luckily, planet_osm_point and planet_osm_polygon, two layers containing all data currently available within OpenStreetMap were pre-loaded into class PostGIS schemas before class to query, but these [can also be downloaded from OpenStreetMap for open use](https://wiki.openstreetmap.org/wiki/Planet.osm).
+Luckily, planet_osm_point and planet_osm_polygon, two layers containing all data currently available within OpenStreetMap were pre-loaded into class PostGIS schemas before class to query, but these [can also be publicly accessed](https://wiki.openstreetmap.org/wiki/Planet.osm) and queried using tools like osm2pgsql, as featured in [similar analyses](https://derrickburt.github.io/opengis/sql/DSlab/DSLAB.html).
 
 ## Analysis
 
 The entire script for this analysis is available [here](resilience.sql).
 
-Unfortunately, some issues were encountered when attempting to count residences within a certain radius of clinics, so the analysis of the process used to conduct this project and discussion of results are incomplete.
+This workflow was modeled in part by the work of Derrick Burt and his similar analysis of access to public transportation in Dar-es-Salaam, also using OpenStreetMap and Resilience Academy data. His analysis is linked [here](https://derrickburt.github.io/opengis/sql/DSlab/DSLAB.html)
 
-INSERT MAP OF WARDS WITH CLINICS
+<p align="center">
+ <img height="600" src="wards_w_hosp.png">
+  </p>
 
 ### 1) Isolate clinics for analysis
 
@@ -254,11 +256,16 @@ where name = 'Hospitali ya Wilaya Muranga' or  name = 'KEREGE Dispensary' or  na
 
 ## Discussion
 
-Somewhat unsurprisingly, it's immediately apparent from the map produced by this analysis that clinics and other care points for medical care - here defined as what has been marked as a hospital, doctor, or clinic in OpenStreetMap - are heavily clustered in the central areas of Dar-es-Salaam. While medical care certainy exists outside this area, points of care are few and far between, limiting access in many areas of the city, with points of care being especially sparse in the East/Southeast of the city. It should be noted, however, that this could potentially be a selection error, as central, densely populated areas of the city would be more likely to have been comprehensively mapped in OpenStreetMap.
+Somewhat unsurprisingly, it's immediately apparent from the map produced by this analysis that clinics and other care points for medical care - here defined as what has been marked as a hospital, doctor, or clinic in OpenStreetMap - are heavily clustered in the central areas of Dar-es-Salaam. While medical care certainly exists outside this area, points of care are few and far between, limiting access in many areas of the city, with points of care being especially sparse in the East/Southeast of the city. Even in some areas closer to the city center, like the lighter areas directly to its southwest, access seems to be lacking. The northern ward, closest to the city center of these conspicuously light wards, contains the Port of Dar Es Salaam and few residences, somewhat accounting for the lack of medical care in this area; if there is little population, there is little imperative to provide medical care. The district directly south near an inlet in the river, however, seems to be largely residential, gauging from information available on OpenStreetMap and imaging from Google Map's satellite view, but comprised largely of informal settlements. With local conditions put into context, this analysis could provide valuable insight regarding gaps in medical care coverage, especially as public transit access remains low in many of the wards with little access to care, as demonstrated by [Derrick Burt](https://derrickburt.github.io/opengis/sql/DSlab/DSLAB.html).
 
-
+It should be noted, however, that this near absence of care in the southeast, south, and northwest of the city could be a function of sparse data, an issue noted by Derrick. While the work of Resilience Academy and their Ramani Huria project is admirable, the wholescale mapping of an entire metropolitan area by volunteers is a daunting task, and holes are certain to form. Due to the density of people and resources towards the center of the city, as naturally occurs in most metropolitan regions, these areas are much more likely to have been comprehensively mapped and had data gathered across them, and as such, areas towards the periphery are both less likely to have comprehensive data under projects like Ramani Huria, and also less likely to have resources like medical care available to them, an unfortunate correlation.
 
 
 ## Resources
 
-Resources to come once analysis is complete
+[National Geographic article about Dar-es-Salaam's rapid growth](https://www.nationalgeographic.com/environment/article/tanzanian-city-may-soon-be-one-of-the-worlds-most-populous)
+[Resilience Academy](https://resilienceacademy.ac.tz/about-us/)
+[Resilience Academy's web feature service](https://geonode.resilienceacademy.ac.tz/)
+[Ramani Huria project](https://ramanihuria.org/en/)
+[Open Street Map](https://www.openstreetmap.org/)
+[Derrick Burt's](https://derrickburt.github.io/opengis/sql/DSlab/DSLAB.html)analysis of public transportation access using some of the same sources and data, also including some guidance on querying OSM features in PostGIS/SQL
