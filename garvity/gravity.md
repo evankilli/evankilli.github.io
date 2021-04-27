@@ -5,7 +5,7 @@ title: Gravity Model of Spatial Interaction
 
 [Leaflet map of hospital service areas in the Northeast](negravweb/index.html)
 
-This project, working on the "Gravity Model" empowered us to use hospital data provided by the Department of Homeland Security and US Census data to create a model which generates service areas for hospitals in a given region. These service areas are based off of a number of factors, taking into account population of a town, number of beds in a hospital - or agglomeration of hospitals, in this case, and distance froma town to a number of hospitals.
+This project, working on the "Gravity Model" empowered us to use hospital data provided by the Department of Homeland Security and US Census data to create a model which generates service areas for hospitals in a given region. These service areas are based off of a number of factors, taking into account population of a town, number of beds in a hospital - or agglomeration of hospitals, in this case, and distance from a town to a number of hospitals.
 
 [Hospital pre-processing workflow](hosp_pre_process.model3)
 ![hosp_pre_process](hosp_pre_process.png)
