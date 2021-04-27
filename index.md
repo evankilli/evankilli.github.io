@@ -10,6 +10,7 @@ I am a senior studying geography at Middlebury College and am excited to dip my 
 - [Gravity Model of Spatial Interaction](garvity/gravity.md)
 - [ROSGEN Stream Classification in GRASS GIS](evankilli/RE-rosgen/rosgen_blog.md)
 - [Urban Resilience: Access to Medical Care in Dar-es-Salaam](POSTGIS/urbanresilience.md)
+- [Analyzing Climate Change Vulnerability in Malawi](evankilli/RP-Malcomb/docs/report/RP-Malcomb-Report.md)
 
 ## Blog
 - [What is Open Source GIScience?](blogs/opensource.md)
