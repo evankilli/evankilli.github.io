@@ -11,6 +11,14 @@ I am a senior studying geography at Middlebury College and am excited to dip my 
 - [ROSGEN Stream Classification in GRASS GIS](evankilli/RE-rosgen/rosgen_blog.md)
 - [Urban Resilience: Access to Medical Care in Dar-es-Salaam](POSTGIS/urbanresilience.md)
 - [Analyzing Climate Change Vulnerability in Malawi](evankilli/RP-Malcomb/docs/report/RP-Malcomb-Report.md)
+- [Analysis of Twitter Activity Relating to Cinco De Mayo](evankilli/RE-Dorian/docs/report/RE-Dorian-Report.md)
+- [Python Analysis of Access to Healthcare in Chicago during COVID-19](evankilli/RP-Kang/report.md)
+- [Independent Analysis of Public Transit Access in Stockholm](evankilli/Personal/Stockholm_transit/blog.md)
 
 ## Blog
 - [What is Open Source GIScience?](blogs/opensource.md)
+- GIS as Reproducible Science
+- Error and Uncertainty
+- Spatial Twitter Analysis
+- Humanitarian GIS
+- [Ethics and Reproducibility](blogs/ethics.md)
