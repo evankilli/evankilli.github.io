@@ -7,9 +7,9 @@ layout: default
 I am a senior studying geography at Middlebury College and am excited to dip my feet deeper into the world of GIScience
 
 ## GIScience Analyses
-- [Gravity Model of Spatial Interaction](evankilli/evankilli.github.io/garvity/gravity.md)
+- [Gravity Model of Spatial Interaction](garvity/gravity.md)
 - [ROSGEN Stream Classification in GRASS GIS](evankilli/RE-rosgen/rosgen_blog.md)
-- [Urban Resilience: Access to Medical Care in Dar-es-Salaam](evankilli/evankilli.github.io/PostGIS/urbanresilience.md)
+- [Urban Resilience: Access to Medical Care in Dar-es-Salaam](PostGIS/urbanresilience.md)
 - [Analyzing Climate Change Vulnerability in Malawi](evankilli/RP-Malcomb/docs/report/RP-Malcomb-Report.md)
 - [Analysis of Twitter Activity Relating to Cinco De Mayo](evankilli/RE-Dorian/docs/report/RE-Dorian-Report.md)
 - [Python Analysis of Access to Healthcare in Chicago during COVID-19](evankilli/RP-Kang/report.md)
