@@ -2,8 +2,6 @@
 layout: page
 title: Urban Resilience: Access to Medical Care in Dar-es-Salaam
 ---
-## A note: this page is currently incomplete, but will be updated in the near future
-
 ## Background
 
 Tanzania's [Resilience Academy](https://resilienceacademy.ac.tz/about-us/) is a partnership between a number of universities in Tanzania alongside Finland's University of Turku. This organization aims to build climate resilience in Tanzania's cities by increasing the amount of climate data available as well as leading community mapping initiatives. One of these initiatives, [Ramani Huria](https://ramanihuria.org/en/), aims to support flood resiliency efforts and urban planning by producing detailed local spatial data through community mapping using OpenStreet map.
