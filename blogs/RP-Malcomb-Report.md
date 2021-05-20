@@ -103,13 +103,13 @@ Data Input: UNEP/grid Europe, Famine early warning network → ***Raster*** → 
 
 ### Adaptive Capacity
 
-![Map of Adaptive Capacity in Malawi](RP-Malcomb/results/maps/ac_2010.png)
+![Map of Adaptive Capacity in Malawi](evankilli/RP-Malcomb/results/maps/ac_2010.png)
 
 In reproducing this analysis, we created the above map showing adaptive capacity scores - a figure described above derived only from the DHS "Assets" and "Access" data. Looking at these results, a pattern becomes immediately apparent: the northern "half" of the country for the most part returns consistently higher adaptive capacity scores, with the southern part returning lower scores. In the north, however, an important exception to this trend exists: the shoreline of Lake Malawi, with darker coloring and lower scores. This largely follows the results found by Malcomb et. al. Reasons why this pattern appears are unclear, but the presence of more cities in the south, and thus more arable land per-capita in the north could be a contributing factor.
 
 While general trends did hold, when comparing scores given in the reproduction and analysis, values consistently do not hold up well.
 
-![Map Comparing Adaptive Capacity Scores in the Reproduction and Original Study](RP-Malcomb/results/maps/fig4comp.png)
+![Map Comparing Adaptive Capacity Scores in the Reproduction and Original Study](evankilli/RP-Malcomb/results/maps/fig4comp.png)
 
 As shown in the above map, while some traditional authorities' scores - or rather, classes of scores - do hold up, a significant chunk are undercounted by the reproduction analysis, with a whole 108 of 200 traditional authorities with values returned by the reproduction study ending up at least one class, if not two, below the class in the original study, with the remainder split roughly 3:1 returning values of equal class or one class above, respectively.
 
