@@ -2,7 +2,6 @@
 layout: page
 title: Urban Resilience: Access to Medical Care in Dar-es-Salaam
 ---
-# Urban Resilience: Access to Medical Care in Dar-es-Salaam
 
 ## Background
 
