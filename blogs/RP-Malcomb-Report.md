@@ -12,7 +12,7 @@ Original study *by* Malcomb, D. W., E. A. Weaver, and A. R. Krakowka. 2014. Vuln
 Replication Authors:
 Evan Killion, Joseph Holler, Kufre Udoh, Open Source GIScience students of fall 2019 and Spring 2021
 
-Replication Materials Available at: [github repository name](github repository link)
+Replication Materials Available at: [RP-Malcomb](https://github.com/evankilli/RP-Malcomb)
 
 Created: `DD Month YYYY`
 Revised: `DD Month YYYY`
