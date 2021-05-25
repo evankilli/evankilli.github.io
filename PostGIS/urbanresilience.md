@@ -17,7 +17,7 @@ The goal of this analysis is to utilize data provided by [the Resilience Academy
 
 Dar-es-Salaam's wards can be found on [the Resilience Academy's web feature service](https://geonode.resilienceacademy.ac.tz/). This can be accessed in QGIS by creating a new connection in WFS - found in the browser - and entering the url https://geonode.resilienceacademy.ac.tz/geoserver/ows when prompted.
 
-INSTRUCTIONS FOR HOW TO LOAD INTO POSTGIS DATABASE ARE INCOMPLETE: The wards can be loaded into a PostGIS database by adding a layer from your new WFS connection to the project, then loading them into
+Once a connection is estabished, the Resilience Academy's layers can be imported into projects in QGIS through the Database Manager tool.
 
 ### Open Street Map
 
@@ -257,12 +257,15 @@ where name = 'Hospitali ya Wilaya Muranga' or  name = 'KEREGE Dispensary' or  na
 
 Somewhat unsurprisingly, it's immediately apparent from the map produced by this analysis that clinics and other care points for medical care - here defined as what has been marked as a hospital, doctor, or clinic in OpenStreetMap - are heavily clustered in the central areas of Dar-es-Salaam. While medical care certainly exists outside this area, points of care are few and far between, limiting access in many areas of the city, with points of care being especially sparse in the East/Southeast of the city. Even in some areas closer to the city center, like the lighter areas directly to its southwest, access seems to be lacking. The northern ward, closest to the city center of these conspicuously light wards, contains the Port of Dar Es Salaam and few residences, somewhat accounting for the lack of medical care in this area; if there is little population, there is little imperative to provide medical care. The district directly south near an inlet in the river, however, seems to be largely residential, gauging from information available on OpenStreetMap and imaging from Google Map's satellite view, but comprised largely of informal settlements. With local conditions put into context, this analysis could provide valuable insight regarding gaps in medical care coverage, especially as public transit access remains low in many of the wards with little access to care, as demonstrated by [Derrick Burt](https://derrickburt.github.io/opengis/sql/DSlab/DSLAB.html).
 
-It should be noted, however, that this near absence of care in the southeast, south, and northwest of the city could be a function of sparse data, an issue noted by Derrick. While the work of Resilience Academy and their Ramani Huria project is admirable, the wholescale mapping of an entire metropolitan area by volunteers is a daunting task, and holes are certain to form. Due to the density of people and resources towards the center of the city, as naturally occurs in most metropolitan regions, these areas are much more likely to have been comprehensively mapped and had data gathered across them, and as such, areas towards the periphery are both less likely to have comprehensive data under projects like Ramani Huria, and also less likely to have resources like medical care available to them, an unfortunate correlation.
+It should be noted, however, that this near absence of care in the southeast, south, and northwest of the city could be a function of two important issues. First, important disparities exist in access to healthcare in Tanzania. While primarily an urban-rural divide, even within urbanized areas, stark differences in access occur, and "clustering" of healthcare - wherein resources are collected largely in certain areas while others lack such resources - is found across the country.
+
+Secondly, a lack of sufficient data may be occurring, an issue noted by Derrick. While the work of Resilience Academy and their Ramani Huria project is admirable, the wholescale mapping of an entire metropolitan area by volunteers is a daunting task, and holes are certain to form. Due to the density of people and resources towards the center of the city, as naturally occurs in most metropolitan regions, these areas are much more likely to have been comprehensively mapped and had data gathered across them, and as such, areas towards the periphery are both less likely to have comprehensive data under projects like Ramani Huria, and also less likely to have resources like medical care available to them, an unfortunate correlation.
 
 
 ## Resources
 
 [National Geographic article about Dar-es-Salaam's rapid growth](https://www.nationalgeographic.com/environment/article/tanzanian-city-may-soon-be-one-of-the-worlds-most-populous)
+[Report on healthcare disparities in Tanzania](http://africainequalities.org/wp-content/uploads/2016/07/Health-inequality-and-Equity-in-Tanzania.pdf)
 [Resilience Academy](https://resilienceacademy.ac.tz/about-us/)
 [Resilience Academy's web feature service](https://geonode.resilienceacademy.ac.tz/)
 [Ramani Huria project](https://ramanihuria.org/en/)
