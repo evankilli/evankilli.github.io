@@ -20,5 +20,5 @@ I am a senior studying geography at Middlebury College and am excited to dip my 
 - GIS as Reproducible Science
 - Error and Uncertainty
 - [Spatial Twitter Analysis](blogs/twitterwildfires.md)
-- Humanitarian GIS
+- [Humanitarian GIS](blogs/humanitarianGIS.md)
 - [Ethics and Reproducibility](blogs/ethics.md)
