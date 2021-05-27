@@ -82,6 +82,7 @@ An additional analysis, this time of word pairings in tweets, backs up the idea 
 As expected, the first map shows that the distribution of tweets about Cinco de Mayo broadly map onto population density, with most tweets being in population centers throughout the study region. Looking more deeply, however, the second map of normalized "hotspots" of twitter activity shows some interesting patterns. Six primary "hotspots" appear in this map: metropolitan South Florida, Orlando, the urbanized Northeast, metro Atlanta, southern Louisiana, and the western parts of North Carolina. The first four are fairly immediately explainable; they're all large metropolises, all with substantial Latino populations, as seen in the map below, from Social Explorer.
 
 ![Hispanic population by county](content/RE-Dorian/hispanicpop.png)
+*Note: this map was produced from American Community Survey data using Social Explorer*
 
 Southern Louisiana and North Carolina provide interesting cases, however, as neither has a particularly significant Latino population. North Carolina remains an enigma, especially due to the rural nature of many of the counties that show up as "hotspots" and the fairly low percentage of Latino residents, but southern Louisiana could in this case be potentially buoyed by New Orleans's reputation as a party center, though their fairly wide reach of this "hotspot" remains intriguing.
 
@@ -107,7 +108,9 @@ Additionally, content of users tweets largely lined up with activities for the h
 
 ## References
 
-Include any referenced studies or materials in the [AAG Style of author-date referencing](https://www.tandf.co.uk//journals/authors/style/reference/tf_USChicagoB.pdf).
+Holler, J. 2021. Hurricane Dorian vs Sharpie Pen: an empirical test of social amplification of risk on social media.
+
+Wang, Z., X. Ye, and M. H. Tsou. 2016. Spatial, temporal, and content analysis of Twitter for wildfire hazards. Natural Hazards 83 (1):523–540. DOI:10.1007/s11069-016-2329-6.
 
 ####  Report Template References & License
 
