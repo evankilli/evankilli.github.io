@@ -19,6 +19,6 @@ I am a senior studying geography at Middlebury College and am excited to dip my 
 - [What is Open Source GIScience?](blogs/opensource.md)
 - GIS as Reproducible Science
 - Error and Uncertainty
-- Spatial Twitter Analysis
+- [Spatial Twitter Analysis](blogs/twitterwildfires.md)
 - Humanitarian GIS
 - [Ethics and Reproducibility](blogs/ethics.md)
