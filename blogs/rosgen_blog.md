@@ -39,6 +39,7 @@ Some tools created by Prof. Holler used in this analysis are included here:
 
 *Table 1 Site Measurements*
 | Variable | Value | Source |
+
 | --- | ----------- | ----- |
 | Bankfull Width | 8.2643 | BfWdth_Avg in CHaMP_Data_MFJD |
 | Bankfull Depth Average | 0.2732 | DepthBf_Avg in CHaMP_Data_MFJD  |
@@ -51,6 +52,7 @@ Some tools created by Prof. Holler used in this analysis are included here:
 
 *Table 2 Rosgen Level I Classification*
 | Criteria | Value | Derivation |
+
 | --- | ----------- | ----|
 | Entrenchment Ratio | 7.260 | valley width / bankfull width from Table 1 |
 | Width/Depth Ratio | 30.25 | bankfull width / bankfull average depth from Table 1 |
@@ -59,6 +61,7 @@ Some tools created by Prof. Holler used in this analysis are included here:
 
 *Table 3 Rosgen Level II Classification*
 | Criteria | Value | Derivation |
+
 | --- | --- | --- |
 | Slope | 3.918474 | ΔElevation/ΔDistance in the Longitudinal Profile |
 | Channel Material | Cobbles | The Key to the Rosgen Classification of Natural Rivers (Rosgen, 1994) |
