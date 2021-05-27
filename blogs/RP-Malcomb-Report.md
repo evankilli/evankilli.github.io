@@ -111,8 +111,8 @@ In reproducing this analysis, we created the above map showing adaptive capacity
 
 While general trends did hold, when comparing scores given in the reproduction and analysis, values consistently do not hold up well.
 
-![Map Comparing Adaptive Capacity Scores in the Reproduction and Original Study](blogs/content/RP-Malcomb/fig4comp.png)
-![Spearman's Rho for Capacity](blogs/content/RP_Malcomb/ta_spearmans.png)
+![Map Comparing Adaptive Capacity Scores in the Reproduction and Original Study](content/RP-Malcomb/fig4comp.png)
+![Spearman's Rho for Capacity](content/RP_Malcomb/ta_spearmans.png)
 
 As shown in the above map, while some traditional authorities' scores - or rather, classes of scores - do hold up, a significant chunk are undercounted by the reproduction analysis, with a whole 108 of 200 traditional authorities with values returned by the reproduction study ending up at least one class, if not two, below the class in the original study, with the remainder split roughly 3:1 returning values of equal class or one class above, respectively.
 
@@ -122,20 +122,20 @@ While very general patterns seem to hold, consistent undercounting on the part o
 ### Resilience
 *UNDERCOUNTING RESILIENCE*
 
-![Map of Vulnerability to Climate Change in Malawi](blogs/content/RP-Malcomb/vulnerability.png)
+![Map of Vulnerability to Climate Change in Malawi](content/RP-Malcomb/vulnerability.png)
 
 The map displayed above shows vulnerability to climate change in Malawi, as measured using a combination of the DHS "adaptive capacity" data, FEWSNET's livelihood resilience data, and UNEP's flood and drought maps. Results are somewhat less clear initially than the results for adaptive capacity, but interestingly, the north seems to generally return "better" values in this analysis as well, and the lakeshore returns "worse" values, with higher vulnerability. Interestingly, the south of the country, through which the Shire River flows, returns values generally in the middle of the range, but low risk of drought near water sources could in some areas balance out higher flood risk. The only areas with *high* vulnerability occur in small belts, and largely in the far south of the country.
 
-![Map Comparing Resilience/Vulnerability Scores between This Analysis and the Original Study](blogs/content/RP-Malcomb/fig5comp.png)
-![Spearman's Rho for Vulnerability](blogs/content/RP_Malcomb/vulnerability_spearmans.png)
-![Scatterplot](blogs/content/RP_Malcomb/vulnerability_correlation.png)
+![Map Comparing Resilience/Vulnerability Scores between This Analysis and the Original Study](content/RP-Malcomb/fig5comp.png)
+![Spearman's Rho for Vulnerability](content/RP_Malcomb/vulnerability_spearmans.png)
+![Scatterplot](content/RP_Malcomb/vulnerability_correlation.png)
 
 Again, divergences do appear between this analysis and the original study, and again, it seems as if this analysis undercounted resilience, resulting in higher vulnerability in much of the map. The above map shows this graphically, with only some small areas of the map showing 0 or positive values - indicating scores greater than or equal to the original study - and most of the map returning higher orange and red values - indicating scores lower than the original study. Like in the section above, this implies some sort of error, but the specifics will need to be investigated further, and while values might not hold well, general trends do - backed up by consistent divergences in one direction -  so the original study is supported in part.
 
 
 ## Unplanned Deviations from the Protocol
 
-Unfortunately, due to some lack of clarity in the methods of the original study, some deviations were made between the original interpretation of the workflow for this analysis made in collaboration with [Maddie Tango]("MADDIES WEBSITE"), [Steven Montilla]("STEVENS WEBSITE"), [Jackson Mumper]("JACKSONS WEBSITE"), [ARIELLE LANDAU]("ARIELLES WEBSITE"), and [Sanjana Roy]("SANJANAS WEBSITE") and the final workflow created after accessing the code written by Prof. Joseph Holler and Kufre Udoh and the various data used for the project. Three major changes were made between the two iterations of the workflow.
+Unfortunately, due to some lack of clarity in the methods of the original study, some deviations were made between the original interpretation of the workflow for this analysis made in collaboration with [Maddie Tango](https://mtango99.github.io/), [Steven Montilla](https://stevenmontilla.github.io/), [Jackson Mumper](https://jackson-mumper.github.io/), [ARIELLE LANDAU](https://alandaux.github.io/), and [Sanjana Roy](https://sanjana-roy.github.io/) and the final workflow created after accessing the code written by Prof. Joseph Holler and Kufre Udoh and the various data used for the project. Three major changes were made between the two iterations of the workflow.
 
 First, based off of the original study - which mentioned scores for each category of data in quintile form and in a range of 0-5 - the group decided to follow the more explicit instructions of the original study and scale the scores in each category to 0-5. AFter accessing the data and code, however, this shifted to a range of 1-5 to align with the quintiles, as a range of 0-5 will produce 6 classes, not fitting with the quintiles described in the study.
 
