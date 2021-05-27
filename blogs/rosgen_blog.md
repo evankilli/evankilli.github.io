@@ -26,7 +26,7 @@ Some tools created by Prof. Holler used in this analysis are included here:
 ## Replication Results
 
 ![Map of elevation in study region](content/RE-Rosgen/siteandbuffer.pdf)
-![Map of slope in study region](ontent/RE-Rosgen/slope.pdf)
+![Map of slope in study region](content/RE-Rosgen/slope.pdf)
 ![Map of bank centerlines in study region](content/RE-Rosgen/banklines.pdf)
 ![Map of valley centerlines in study region](content/RE-Rosgen/valleylines.pdf)
 ![Cross-section at study site](content/RE-Rosgen/crosssec.png)
