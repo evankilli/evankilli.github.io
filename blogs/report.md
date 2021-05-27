@@ -37,9 +37,9 @@ Broadly, this replication follows the code in the original Jupyter notebook, but
 ## Results
 
 *The final repository for this reproduction can be found [here](https://github.com/evankilli/RP-Kang)*
-![Original map](blogs/content/RP-Kang/original_map.png)
+![Original map](content/RP-Kang/original_map.png)
 *Map 1. Output from original code*
-![Map from edited code](blogs/content/RP-Kang/edited_map.png)
+![Map from edited code](content/RP-Kang/edited_map.png)
 *Map 2. Output from edited code*
 
 Immediately apparent from both maps is a general abundance of healthcare in central areas of Chicago, and low access to care in the Southeast of the city, a [predominately Black region](https://en.wikipedia.org/wiki/Chicago#Demographics). However, when comparing the two, some interesting patterns emerge. In the first map, using the constrained road network, the northwest of the city has almost zero access to healthcare. When including a wider network of roads, however, this area becomes a region with moderate or even high access to healthcare, not surprising given the array of hospitals in surrounding areas.
