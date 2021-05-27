@@ -13,7 +13,7 @@ I am a senior studying geography at Middlebury College and am excited to dip my 
 - [Analyzing Climate Change Vulnerability in Malawi](blogs/RP-Malcomb-Report.md)
 - [Analysis of Twitter Activity Relating to Cinco De Mayo](blogs/RE-Dorian-Report.md)
 - [Python Analysis of Access to Healthcare in Chicago during COVID-19](blogs/report.md)
-- [Independent Analysis of Public Transit Access in Stockholm](blogs/blog.md)
+- Independent Analysis of Public Transit Access in Stockholm
 
 ## Blog
 - [What is Open Source GIScience?](blogs/opensource.md)
