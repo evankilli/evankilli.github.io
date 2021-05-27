@@ -20,17 +20,17 @@ In performing this analysis, we followed workflows pre-prepared by ASU Geography
 Unfortunately, in working with Prof. Holler and other students enrolled in this course, we discovered that we were unable to properly unzip the DEM data, requiring the use of a tool like [Unarchiver](https://theunarchiver.com/), and issues arose installing tools within RStudio, requiring the installation of [XCode](https://developer.apple.com/download/more/?=for%20Xcode) within Apples developer tools.
 
 Some tools created by Prof. Holler used in this analysis are included here:
-- [Centerlines tool](procedure/code/center_line_length_no_clip.gxm)
-  - note: due to strange geography of the river at the assigned study site, a center line tool that *does not clip* is used here, requiring extra attention to ensure comparable lengths for the valley and stream centerlines. An additional tool that *does clip* can be found [here](procedure/code/center_line_length.gxm)
+- [Centerlines tool](https://github.com/evankilli/RE-rosgen/blob/main/procedure/code/center_line_length_no_clip.gxm)
+  - note: due to strange geography of the river at the assigned study site, a center line tool that *does not clip* is used here, requiring extra attention to ensure comparable lengths for the valley and stream centerlines. An additional tool that *does clip* can be found [here](https://github.com/evankilli/RE-rosgen/blob/main/procedure/code/center_line_length.gxm)
 
 ## Replication Results
 
-![Map of elevation in study region](blogs/content/RE-Rosgen/siteandbuffer.pdf)
-![Map of slope in study region](blogs/content/RE-Rosgen/slope.pdf)
-![Map of bank centerlines in study region](blogs/content/RE-Rosgen/banklines.pdf)
-![Map of valley centerlines in study region](blogs/content/RE-Rosgen/valleylines.pdf)
-![Cross-section at study site](blogs/content/RE-Rosgen/crosssec.png)
-![Longitudinal profile at study site](blogs/content/RE-Rosgen/longprof_w_slope.png)
+![Map of elevation in study region](content/RE-Rosgen/siteandbuffer.pdf)
+![Map of slope in study region](ontent/RE-Rosgen/slope.pdf)
+![Map of bank centerlines in study region](content/RE-Rosgen/banklines.pdf)
+![Map of valley centerlines in study region](content/RE-Rosgen/valleylines.pdf)
+![Cross-section at study site](content/RE-Rosgen/crosssec.png)
+![Longitudinal profile at study site](content/RE-Rosgen/longprof_w_slope.png)
 
 *Table 1 Site Measurements*
 | Variable | Value | Source |
