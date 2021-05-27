@@ -66,22 +66,22 @@ As would be expected, Twitter activity shows a pronounced peak in tweets related
 
 ### Content Analysis
 
-![Counts of unique words in Cinco de Mayo tweets](blogs/content/RE-Dorian/wordfreq_cinco.png)
+![Counts of unique words in Cinco de Mayo tweets](content/RE-Dorian/wordfreq_cinco.png)
 
 Unsurprisingly, content analyses of the collected tweets found that by far, "de", "cinco", and "mayo" were the most tweeted words. Interestingly, however, "cinco" and "de" pull out ahead of "mayo", perhaps due to jokes like "Cinco de Drinko". "Happy" and "feliz" show up in the top 15, likely attibuted to holiday well wishers, and Mexican food and drink items like "tacos", "tequila", and "margaritas" likewise end up in this list due to their prevalence in US Mexican cuisine.
 
-![Plot of word pairs in Cinco de Mayo tweets](blogs/content/RE-Dorian/wordnetwork_cinco.png)
+![Plot of word pairs in Cinco de Mayo tweets](content/RE-Dorian/wordnetwork_cinco.png)
 
 An additional analysis, this time of word pairings in tweets, backs up the idea that jokes like "Cinco de Drinko" are contributing to "mayo's" somewhat lower prevalence in tweets. As seen above, "cinco" and "de" are tweeted together significantly more often the "de" and "mayo". "Mexican" shows up often in conjunction with "army", "restaurant", and "independence" - a misconception, as it celebrates a victory over the French *post-independence* - as well as "battle" and "puebla", connected to the actual battle that is actually commemorated on Cinco de Mayo.
 
 ### Spatial Analysis
 
-![Map of tweet locations and population density](blogs/content/RE-Dorian/tweetloc_cinco.png)
-![Hot spots of Cinco de Mayo twitter activity](blogs/content/RE-Dorian/hotspots_cinco.png)
+![Map of tweet locations and population density](content/RE-Dorian/tweetloc_cinco.png)
+![Hot spots of Cinco de Mayo twitter activity](content/RE-Dorian/hotspots_cinco.png)
 
 As expected, the first map shows that the distribution of tweets about Cinco de Mayo broadly map onto population density, with most tweets being in population centers throughout the study region. Looking more deeply, however, the second map of normalized "hotspots" of twitter activity shows some interesting patterns. Six primary "hotspots" appear in this map: metropolitan South Florida, Orlando, the urbanized Northeast, metro Atlanta, southern Louisiana, and the western parts of North Carolina. The first four are fairly immediately explainable; they're all large metropolises, all with substantial Latino populations, as seen in the map below, from Social Explorer.
 
-![Hispanic population by county](blogs/content/RE-Dorian/hispanicpop.png)
+![Hispanic population by county](content/RE-Dorian/hispanicpop.png)
 
 Southern Louisiana and North Carolina provide interesting cases, however, as neither has a particularly significant Latino population. North Carolina remains an enigma, especially due to the rural nature of many of the counties that show up as "hotspots" and the fairly low percentage of Latino residents, but southern Louisiana could in this case be potentially buoyed by New Orleans's reputation as a party center, though their fairly wide reach of this "hotspot" remains intriguing.
 
@@ -103,7 +103,7 @@ This study, investigating Twitter activity surrounding Cinco de Mayo, found broa
   1. temporal patterns of activity were closely tied to events, largely occurring within the 24hrs following a hazardous event; this study found minimal lag in activity, likely due to lack of hazards.
   1. spatial patterns tended to coincide with areas effected by events, with many metropolitan areas with significant Latino populations ranking as "hotspots" in this study
 
-Additionally, content of users tweets largely lined up with activities for the holiday. The name of the holiday, separated or strung together in one "word" ranked highest, but Mexican foodstuffs like tacos, margaritas, and tequila - the foods of choice for celebrants at Mexican restaurants across the country - also found their way into the list of most used terms. While this doesn't *cleanly* map on to Wang et al and Hollers findings, which found interest in responses to disasters in dissemination of information, the clear relevance of associated actions, whether dinner and drinks or evacuation, does carry throughout the three studies. 
+Additionally, content of users tweets largely lined up with activities for the holiday. The name of the holiday, separated or strung together in one "word" ranked highest, but Mexican foodstuffs like tacos, margaritas, and tequila - the foods of choice for celebrants at Mexican restaurants across the country - also found their way into the list of most used terms. While this doesn't *cleanly* map on to Wang et al and Hollers findings, which found interest in responses to disasters in dissemination of information, the clear relevance of associated actions, whether dinner and drinks or evacuation, does carry throughout the three studies.
 
 ## References
 
