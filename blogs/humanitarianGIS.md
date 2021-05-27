@@ -1,6 +1,6 @@
 ---
+layout: page
 title: Humanitarian GIS
-layout: Page
 ---
 
 In their 2014 paper, Crawford and Finn (2014) explore the opportunities and limitations presented by the use of volunteered "big data", or volunteered geographic information (VGI) in studying crises. When using such data to study these events, uncertainty, ambiguity, and feedback loops are inherently created by the mechanisms of social media algorithms and methods of querying such networks for data. As the user experience, i.e. what the user sees and can engage with, is already based off of self-reinforcing algorithms, a set of users that would already be otherwise engaged with such disasters is created, with these users only further going on to participate in discourse, with this circle often stuck repeating. Additionally, quoting directly from Crawford and Finn, `"while looking at short time frames around an event can be useful for gaining tactical information about a disaster, it can obscure the social conditions which contribute to suffering"`. Such use of VGI can be helpful in studying and understanding the very core of the crisis - the events themselves - but divorces this to some extent from the context which contributed to such events and the suffering created or exacerbated by them.
