@@ -1,3 +1,8 @@
+---
+layout: page
+title: Ethics and Reproducibility
+---
+
 In discussing the ethics of using big data and the reproduction of existing studies, half of the students involved in this debate watched [this webinar](https://gsi.cigi.illinois.edu/geospatial-fellows-webinar-series/). This was a case study by geographer Xun Shi, looking at a bottom up approach to epidemic modeling, using personal-level data and aggregating up, rather than moving in the opposite direction.
 
 Shi uses the metaphor of forests and trees as an apt descriptor for this process. First, we can look at the top-down approach to analysis of epidemics and other events: analyzing at a broader level - looking at the *forest* - one can grasp the broad strokes of general trends affecting an entire system. This certainly has its benefits, a less invasive analysis at a larger scale can still provide valuable insights that can inform policy interventions, but without the access or privacy issues that a study centered on big data may require.
