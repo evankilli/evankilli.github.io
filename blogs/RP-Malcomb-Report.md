@@ -14,8 +14,8 @@ Evan Killion, Joseph Holler, Kufre Udoh, Open Source GIScience students of fall 
 
 Replication Materials Available at: [RP-Malcomb](https://github.com/evankilli/RP-Malcomb)
 
-Created: `DD Month YYYY`
-Revised: `DD Month YYYY`
+Created: `24 April 2021`
+Revised: `26 May 2021`
 
 ## Abstract
 

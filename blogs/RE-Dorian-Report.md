@@ -16,8 +16,8 @@ Evan Killion
 
 Replication Materials Available at: [RP-Kang](https://github.com/evankilli/RP-Kang)
 
-Created: `DD Month YYYY`
-Revised: `DD Month YYYY`
+Created: `06 May 2021`
+Revised: `26 May 2021`
 
 ## Abstract
 
