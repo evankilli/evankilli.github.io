@@ -15,7 +15,7 @@ As stated earlier, each student conducting this analysis was assigned a data poi
 
 ## Materials and Procedure  
 
-In performing this analysis, we followed workflows pre-prepared by ASU Geography PhD candidate Zach Hilgendorf in collaboration with Middlebury College assistant professor Joseph Holler, working in both GRASS GIS and RStudio. The workflow followed in grass is linked [here](https://github.com/evankilli/RE-rosgen/blob/main/procedure/protocols/1-Research_Protocol_GRASS.pdf), the code run in RStudio is linked [here](https://github.com/evankilli/RE-rosgen/blob/main/procedure/code/2-ProfileViewer.Rmd), and the instructions for running the code in RStudio and eventually classify the stream at the assigned point are provided [here](https://github.com/evankilli/RE-rosgen/blob/main/procedure/protocols/3-Classifying.pdf).
+In performing this analysis, we followed workflows pre-prepared by ASU Geography PhD candidate Zach Hilgendorf in collaboration with Middlebury College assistant professor Joseph Holler, working in both GRASS GIS and RStudio. The workflow followed in grass is linked [here](https://github.com/evankilli/RE-rosgen/blob/main/procedure/protocols/1-Research_Protocol_GRASS.PDF), the code run in RStudio is linked [here](https://github.com/evankilli/RE-rosgen/blob/main/procedure/code/2-ProfileViewer.Rmd), and the instructions for running the code in RStudio and eventually classify the stream at the assigned point are provided [here](https://github.com/evankilli/RE-rosgen/blob/main/procedure/protocols/3-Classifying.PDF).
 
 Unfortunately, in working with Prof. Holler and other students enrolled in this course, we discovered that we were unable to properly unzip the DEM data, requiring the use of a tool like [Unarchiver](https://theunarchiver.com/), and issues arose installing tools within RStudio, requiring the installation of [XCode](https://developer.apple.com/download/more/?=for%20Xcode) within Apples developer tools.
 
@@ -25,17 +25,17 @@ Some tools created by Prof. Holler used in this analysis are included here:
 
 ## Replication Results
 
-![Map of elevation in study region](content/RE-Rosgen/siteandbuffer.pdf)
+![Map of elevation in study region](content/RE-Rosgen/siteandbuffer.PDF)
 
-![Map of slope in study region](content/RE-Rosgen/slope.pdf)
+![Map of slope in study region](content/RE-Rosgen/slope.PDF)
 
-![Map of bank centerlines in study region](content/RE-Rosgen/banklines.pdf)
+![Map of bank centerlines in study region](content/RE-Rosgen/banklines.PDF)
 
-![Map of valley centerlines in study region](content/RE-Rosgen/valleylines.pdf)
+![Map of valley centerlines in study region](content/RE-Rosgen/valleylines.PDF)
 
-![Cross-section at study site](content/RE-Rosgen/crosssec.png)
+![Cross-section at study site](content/RE-Rosgen/crosssec.PNG)
 
-![Longitudinal profile at study site](content/RE-Rosgen/longprof_w_slope.png)
+![Longitudinal profile at study site](content/RE-Rosgen/longprof_w_slope.PNG)
 
 *Table 1 Site Measurements*
 

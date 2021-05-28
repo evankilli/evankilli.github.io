@@ -105,15 +105,15 @@ Data Input: UNEP/grid Europe, Famine early warning network → ***Raster*** → 
 
 ### Adaptive Capacity
 
-![Map of Adaptive Capacity in Malawi](content/RP-Malcomb/ac_2010.png)
+![Map of Adaptive Capacity in Malawi](content/RP-Malcomb/ac_2010.PNG)
 
 In reproducing this analysis, we created the above map showing adaptive capacity scores - a figure described above derived only from the DHS "Assets" and "Access" data. Looking at these results, a pattern becomes immediately apparent: the northern "half" of the country for the most part returns consistently higher adaptive capacity scores, with the southern part returning lower scores. In the north, however, an important exception to this trend exists: the shoreline of Lake Malawi, with darker coloring and lower scores. This largely follows the results found by Malcomb et. al. Reasons why this pattern appears are unclear, but the presence of more cities in the south, and thus more arable land per-capita in the north could be a contributing factor.
 
 While general trends did hold, when comparing scores given in the reproduction and analysis, values consistently do not hold up well.
 
-![Map Comparing Adaptive Capacity Scores in the Reproduction and Original Study](content/RP-Malcomb/fig4comp.png)
+![Map Comparing Adaptive Capacity Scores in the Reproduction and Original Study](content/RP-Malcomb/fig4comp.PNG)
 
-![Spearman's Rho for Capacity](content/RP_Malcomb/ta_spearmans.png)
+![Spearman's Rho for Capacity](content/RP_Malcomb/ta_spearmans.PNG)
 
 As shown in the above map, while some traditional authorities' scores - or rather, classes of scores - do hold up, a significant chunk are undercounted by the reproduction analysis, with a whole 108 of 200 traditional authorities with values returned by the reproduction study ending up at least one class, if not two, below the class in the original study, with the remainder split roughly 3:1 returning values of equal class or one class above, respectively.
 
@@ -123,15 +123,15 @@ While very general patterns seem to hold, consistent undercounting on the part o
 ### Resilience
 *UNDERCOUNTING RESILIENCE*
 
-![Map of Vulnerability to Climate Change in Malawi](content/RP-Malcomb/vulnerability.png)
+![Map of Vulnerability to Climate Change in Malawi](content/RP-Malcomb/vulnerability.PNG)
 
 The map displayed above shows vulnerability to climate change in Malawi, as measured using a combination of the DHS "adaptive capacity" data, FEWSNET's livelihood resilience data, and UNEP's flood and drought maps. Results are somewhat less clear initially than the results for adaptive capacity, but interestingly, the north seems to generally return "better" values in this analysis as well, and the lakeshore returns "worse" values, with higher vulnerability. Interestingly, the south of the country, through which the Shire River flows, returns values generally in the middle of the range, but low risk of drought near water sources could in some areas balance out higher flood risk. The only areas with *high* vulnerability occur in small belts, and largely in the far south of the country.
 
-![Map Comparing Resilience/Vulnerability Scores between This Analysis and the Original Study](content/RP-Malcomb/fig5comp.png)
+![Map Comparing Resilience/Vulnerability Scores between This Analysis and the Original Study](content/RP-Malcomb/fig5comp.PNG)
 
-![Spearman's Rho for Vulnerability](content/RP_Malcomb/vulnerability_spearmans.png)
+![Spearman's Rho for Vulnerability](content/RP_Malcomb/vulnerability_spearmans.PNG)
 
-![Scatterplot](content/RP_Malcomb/vulnerability_correlation.png)
+![Scatterplot](content/RP_Malcomb/vulnerability_correlation.PNG)
 
 Again, divergences do appear between this analysis and the original study, and again, it seems as if this analysis undercounted resilience, resulting in higher vulnerability in much of the map. The above map shows this graphically, with only some small areas of the map showing 0 or positive values - indicating scores greater than or equal to the original study - and most of the map returning higher orange and red values - indicating scores lower than the original study. Like in the section above, this implies some sort of error, but the specifics will need to be investigated further, and while values might not hold well, general trends do - backed up by consistent divergences in one direction -  so the original study is supported in part.
 
