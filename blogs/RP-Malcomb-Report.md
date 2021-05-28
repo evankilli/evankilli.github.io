@@ -113,7 +113,7 @@ While general trends did hold, when comparing scores given in the reproduction a
 
 ![Map Comparing Adaptive Capacity Scores in the Reproduction and Original Study](content/RP-Malcomb/fig4comp.png)
 
-![Spearman's Rho for Capacity](content/RP_Malcomb/ta_spearmans.PNG)
+![Spearman's Rho for Capacity](content/RP_Malcomb/ta_spearmans.png)
 
 As shown in the above map, while some traditional authorities' scores - or rather, classes of scores - do hold up, a significant chunk are undercounted by the reproduction analysis, with a whole 108 of 200 traditional authorities with values returned by the reproduction study ending up at least one class, if not two, below the class in the original study, with the remainder split roughly 3:1 returning values of equal class or one class above, respectively.
 
@@ -129,9 +129,9 @@ The map displayed above shows vulnerability to climate change in Malawi, as meas
 
 ![Map Comparing Resilience/Vulnerability Scores between This Analysis and the Original Study](content/RP-Malcomb/fig5comp.png)
 
-![Spearman's Rho for Vulnerability](content/RP_Malcomb/vulnerability_spearmans.PNG)
+![Spearman's Rho for Vulnerability](content/RP_Malcomb/vulnerability_spearmans.png)
 
-![Scatterplot](content/RP_Malcomb/vulnerability_correlation.PNG)
+![Scatterplot](content/RP_Malcomb/vulnerability_correlation.png)
 
 Again, divergences do appear between this analysis and the original study, and again, it seems as if this analysis undercounted resilience, resulting in higher vulnerability in much of the map. The above map shows this graphically, with only some small areas of the map showing 0 or positive values - indicating scores greater than or equal to the original study - and most of the map returning higher orange and red values - indicating scores lower than the original study. Like in the section above, this implies some sort of error, but the specifics will need to be investigated further, and while values might not hold well, general trends do - backed up by consistent divergences in one direction -  so the original study is supported in part.
 
