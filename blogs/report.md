@@ -7,7 +7,7 @@ title: RP- Spatial Accessibility of COVID-19 Healthcare Resources in Illinois
 
 Original study *by* Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Shaowen Wang. 2020. Rapidly measuring spatial accessibility of COVID-19 healthcare resources: a case study of Illinois, USA. International Journal of Health Geographics 19 (1):1–17. DOI:[10.1186/s12942-020-00229-x](https://ij-healthgeographics.biomedcentral.com/articles/10.1186/s12942-020-00229-x).
 
-Reproduction Author: Drew An-Pham
+Reproduction Author: Evan Killion
 
 Reproduction Materials Available at: [RP-Kang Repository](https://github.com/evankilli/RP-Kang)
 
@@ -54,7 +54,7 @@ This analysis was broadly successful in replicating the results of Kang et al's 
 
 ## Some quick acknowledgments!
 
-A special thanks to [Maja Cannavo](https://majacannavo.github.io/) for helping to fix issues in processing the road network for analysis, for [Joe Holler](https://gis4dev.github.io/) in leading us through this course, and Kang et al for making this study so widely available!
+A special thanks to [Maja Cannavo](https://majacannavo.github.io/) for helping to fix issues in processing the road network for analysis, to [Drew An-Pham](https://daptx.github.io/) for some templates for this report, for [Joe Holler](https://gis4dev.github.io/) in leading us through this course, and Kang et al for making this study so widely available!
 
 ## References
 Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Shaowen Wang. 2020. Rapidly measuring spatial accessibility of COVID-19 healthcare resources: a case study of Illinois, USA. International Journal of Health Geographics 19 (1):1–17. DOI:10.1186/s12942-020-00229-x.
