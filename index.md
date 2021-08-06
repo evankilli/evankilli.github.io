@@ -6,6 +6,8 @@ layout: default
 # Evan Killion's Open Source GIS Portfolio
 I am a recent graduate in Geography from Middlebury College with an interest in urban planning and transportation. On campus I was a leader in Spiritual and Religious Life, leading Gather: a Fellowship of Progressive Christians and Friends for three years, and was a member of MOSAIC Interfaith House. Other interests of mine include indigenous politics and history, sociolinguistics, and Southern cooking.
 
+This site includes GIS analyses and musings on topics within Geoscience from my Spring 2021 course in Open Source GIScience, as well as some personal GIS work.
+
 ## GIScience Analyses
 - [Gravity Model of Spatial Interaction](garvity/gravity.md)
 - [ROSGEN Stream Classification in GRASS GIS](blogs/rosgen_blog.md)
