@@ -13,6 +13,7 @@ I am a recent graduate in Geography from Middlebury College with an interest in 
 - [Analyzing Climate Change Vulnerability in Malawi](blogs/RP-Malcomb-Report.md)
 - [Analysis of Twitter Activity Relating to Cinco De Mayo](blogs/RE-Dorian-Report.md)
 - [Python Analysis of Access to Healthcare in Chicago during COVID-19](blogs/report.md)
+- [Independent PostGIS Analysis of Transit Access in Stockholm]
 
 ## Blog
 - [What is Open Source GIScience?](blogs/opensource.md)
