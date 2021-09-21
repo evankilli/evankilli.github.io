@@ -15,7 +15,7 @@ This site includes GIS analyses and musings on topics within Geoscience from my 
 - [Analyzing Climate Change Vulnerability in Malawi](blogs/RP-Malcomb-Report.md)
 - [Analysis of Twitter Activity Relating to Cinco De Mayo](blogs/RE-Dorian-Report.md)
 - [Python Analysis of Access to Healthcare in Chicago during COVID-19](blogs/report.md)
-- [Independent PostGIS Analysis of Transit Access in Stockholm](Personal/Stockholm_transit/blog.md)
+- [Independent PostGIS Analysis of Transit Access in Stockholm](stockholm/blog.md)
 
 ## Blog
 - [What is Open Source GIScience?](blogs/opensource.md)
