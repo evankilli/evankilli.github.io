@@ -33,7 +33,7 @@ Some tools created by Prof. Holler used in this analysis are included here:
 
 ![Map of valley centerlines in study region](content/RE-Rosgen/valleylines.pdf)
 
-![Cross-section at study site](content/RE-Rosgen/crosssec.png)
+![Cross-section at study site](content/RE-Rosgen/crosssec_w_bf.png)
 
 ![Longitudinal profile at study site](content/RE-Rosgen/longprof_w_slope.png)
 
