@@ -1,200 +1,189 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Evan Killion",
+    "label": "Transportation and Planning Professional",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "email": "evankillion@outlook.com",
+    "phone": "(860) 990-3504",
+    "url": "https://evankilli.github.io/",
+    "summary": "Hello, my name is Evan Killion, a young professional in planning and adept data analyst. I have a keen interest in working to promote more livable, sustainable, and equitable communities through data-driven and responsive policy making. I have strong experience in QGIS and R, among other platforms, as well as working directly with the public through outreach events, focus groups, and even intercept surveying.",
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Github",
+        "username": "evankilli",
+        "url": "https://github.com/evankilli"
+
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Resource Systems Group, Inc.",
+      "position": "Mobility Research Analyst",
+      "location": "Cambridge, MA and Portland, OR",
+      "url": "https://www.rsginc.com",
+      "startDate": "2022-03-01",
+      "summary": "Proved myself as a dependable and capable who helps public and private sector transportation clients uncover actionable insights from a variety of datasets and eveluate ridership behavior and policy impacts. Work across a range of transportation modes and excel at managing the technical and logistical aspects of fieldwork, coordinating with stakeholders, and preparing reports and analysis.",
+      "highlights": ["Stepped into a project management role to lead the study of possible vehicle registration strategies and policies for a state agency.",
+"Conducted quantitative analysis and data processing and published reports evaluating pilot programs for fare-free transit in various cities, ground access at air hubs, and for other elements of transit ridership and transit rider experience across the country.",
+"Studied the impacts of housing policy changes on transportation revenue in a Northeastern state, opportunities to mitigate any funding losses, and the capacity of local governments to expand their oversight of development.",
+"Conducted industry and stakeholder outreach, validated and developed transit schedule data data, and collaborated with the Bureau of Transportation Statistics and other researchers to complete a study under the Transportation Research Board, culminating in the publication of the publicly available Intercity Bus Atlas and of a final report, guide to GTFS use for planners, guide to GTFS development, and guide to future implementation.",
+"Managed scoping, security, logistics, and staff and communicated with vendors, subcontractors, clients, and temporary staff to manage risks in data collection and ensure the exemplary and on-time delivery of survey datasets for projects across a variety of locations, transportation modes, and survey modalities.",
+"Synthesized responses from one-on-one calls, focus groups, and other meetings with state departments of transportation to submit recommendations to Amtrak and state partners to better align their data collection, analytics, and marketing strategies.",
+"Prepared and implemented FTA STOPS ridership forecasting to establish a baseline calibration for other studies and model future ridership of various transit expansions for a major Southeastern metropolitan area."
+]
+    },
+    {
+      "name": "City of Cambridge Community Development Department (now Department of Transportation)",
+      "location": "Cambridge, MA",
+      "position": "Sustainable Transportation Planning Intern",
+      "url": "https://www.cambridgema.gov/Departments/Transportation",
+      "startDate": "2021-09-29",
+      "endDate": "2022-02-25",
+      "summary": "Worked to improve bicycle and pedestrian mobility as an intern with the City of Cambridge Community Development Department's transportation planning division.",
+      "highlights": ["Managed the week-to-week business and public meetings of the city’s advisory Pedestrian and Bicycle Committees and conducted in-person outreach and volunteer events related to cycling safety and promotion.",
+"Assisted in planning for the local expansion of the Bluebikes bikeshare network and developed strategies to coordinate with the Department of Public Works and their programs.",
+"Maintained database of bicycle infrastructure improvements associated with new and proposed developments.",
+"Published a monthly active transportation report as well as maps and other deliverables intended for public use.",
+"Performed regular updates to relevant City webpages."
+]
+    },
+    {
+      "name": "Cardullo's Gourmet Shoppe",
+      "location": "Cambridge, MA",
+      "position": "Sales Clerk",
+      "url": "https://www.cardullos.com",
+      "startDate": "2021-10-01",
+      "endDate": "2022-03-30",
+      "summary": "Performed front- and back-of-house duties at and assisted in the deli of a boutique gourmet grocery located on Cambridge's iconic Harvard Square",
+      "highlights": ["Delivered friendly and efficient service to upwards of 100 daily customers, ensuring a welcoming and organized shopping experience.",
+      "Ensured completion of transactions, resolution of customer concerns, and completion of necessary back-of-house tasks during high-volume special events and holidays.",
+      "Provided tailored recommendations for gifts, wine, and food items."
+    ]
+    },
+    {
+      "name": "Buy Again Alley",
+      "location": "Middlebury, VT",
+      "position": "Social Media Associate",
+      "url": "https://www.facebook.com/buyagainalley/",
+      "startDate": "2018-10-01",
+      "endDate": "2019-05-15",
+      "summary": "Supervised a small consignment and thrift store in Middlebury's Downtown and developed the store's social media presence",
+      "highlights": ["Performed general retail store duties such as opening and closing, donation intake, customer service, restocking, inventory, cleaning, and seasonal decorating, often working alone.",
+"Photographed merchandise and promoted the business through strategically designed Facebook and Instagram posts."
+]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Cambridge Pedestrian Advisory Committee",
+      "location": "Cambridge, Massachusetts",
+      "position": "Citizen Member",
+      "url": "https://www.cambridgema.gov/cdd/transportation/forthepublic/pedestriancomm",
+      "startDate": "2024-02-01",
+      "endDate": "2024-08-08",
+      "summary": "Member of citizen advisory committee focused on pedestrian issues in the City of Cambridge. Learned about relevant topics and advised on city policies, infrastructure projects, and developments. Member until relocation."
+    },
+    {
+      "organization": "Gather: a Progressive Fellowship of Christians and Friends",
+      "location": "Middlebury College, Middlebury, Vermont",
+      "position": "President, Treasurer",
+      "url": "https://www.cambridgema.gov/cdd/transportation/forthepublic/pedestriancomm",
+      "startDate": "2018-04-01",
+      "endDate": "2021-05-31",
+      "summary": "Led a progressively-oriented student spiritual life group focused on developing LGBT-affirming senses of faith and deconstructing racist, sexist, and homophobic conceptions of Christianity and systems of belief.",
+      "highlights": ["Worked with other student spiritual life organizations to develop interfaith programming.",
+      "Presented and advertised three annual discussion series focusing on examining special topics.",
+    "Nominated for Charles P. Scott Center for Spiritual and Religious Life—Interfaith Cooperation Award."]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Middlebury College",
+      "location": "Middlebury, Vermont",
+      "url": "https://www.middlebury.edu/",
+      "area": "Geography",
+      "studyType": "BA",
+      "startDate": "2017-09-11",
+      "endDate": "2021-05-31",
+      "courses": ["Open Source GIScience",
+                  "Spatial Thinking with GIS",
+                  "Urban Gepography",
+                  "Architecture of Planning and Place",
+                  "Russian Language and Culture"                ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "Charles P. Scott Center for Spiritual and Religious Life—Spiritual Life Leadership Award",
+      "date": "2020",
+      "awarder": "Middlebury College Charles P. Scott Center for Spiritual and Religious Life",
+      "url": "https://www.middlebury.edu/college/student-life/student-activities/student-organizations/student-leadership-awards/2020-award-nominees",
+      "summary": "Given to a student who advances spiritual life on campus or supports the spiritual journey of peers through prayer, study, or other activities. Awarded to MOSAIC Interfaith House as a group."
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "Charles P. Scott Center for Spiritual and Religious Life—Interfaith Cooperation Award",
+      "date": "2019",
+      "awarder": "Middlebury College Charles P. Scott Center for Spiritual and Religious Life",
+      "url": "https://www.middlebury.edu/announcements/news/2019/04/college-presents-student-leadership-awards",
+      "summary": "The award recognizes students who actively promote and facilitate interfaith understanding, communication, or programming. Awarded to MOSAIC Interfaith House as a group."
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "title": "National Security Language Initiative for Youth",
+      "date": "2016",
+      "awarder": "United States Department of State Bureau of Educational and Cultural Affairs",
+      "url": "https://www.nsliforyouth.org/about/",
+      "summary": "Recipient of a full scholarship to participate in a two-month language immersion program in Kirov, Russia sponsored by the US State Department."
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Implementation of the National Intercity Bus Atlas",
+      "publisher": "The National Academies Press",
+      "releaseDate": "2025-07-16",
+      "url": "https://nap.nationalacademies.org/catalog/29119/implementation-of-the-national-intercity-bus-atlas",
+      "summary": "The Intercity Bus Atlas was developed to facilitate the promotion of intercity bus use by providing comprehensive service provider, route, and scheduling information in a public-facing online platform. NCHRP Research Report 1150: Implementation of the National Intercity Bus Atlas documents  the development of the data framework for mapping. Technical challenges and hesitancy by some private carriers to share certain operating data resulted in several key information gaps. The report offers suggested future improvements to the atlas such as including more service characteristics and strategies to address data collection challenges."
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "English",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Russian",
+      "fluency": "Advanced",
+      "icon": ""
+    },
+    {
+      "language": "French",
+      "fluency": "Intermediate-to-Advanced",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Urbanism, Planning, and Geography",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+        "Open Source Geospatial Analysis",
+        "Geography of Migration",
+        "Regional Identity",
+        "Historical Geography of New England"      ]
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Hobbies",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Analog Photography",
+        "Kayaking",
+        "Embroidery",
+        "Board Gaming",
+        "Geneaology",
+        "Cooking and Baking",
+        "Travel"
+      ]
     }
   ]
 }
