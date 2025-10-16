@@ -2,15 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: A bit about me!
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Feel free to contact me</p>
-    <p>at any of the linked sources</p>
+    <p>Click on the icons at the</p>
+    <p>bottom of the page to</p>
+    <p>get in touch!</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
