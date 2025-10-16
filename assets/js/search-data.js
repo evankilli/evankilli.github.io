@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-submenus",
-          title: "submenus",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/_pages/dropdown.html";
-          },
         },{id: "books-rise-and-fall-of-swedish-social-democracy",
           title: 'Rise and Fall of Swedish Social Democracy',
           description: "",
