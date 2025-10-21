@@ -77,7 +77,7 @@
   "volunteer": [
     {
       "organization": "Cambridge Pedestrian Advisory Committee",
-      "location": "Cambridge, Massachusetts",
+      "location": "Cambridge, MA",
       "position": "Citizen Member",
       "url": "https://www.cambridgema.gov/cdd/transportation/forthepublic/pedestriancomm",
       "startDate": "2024-02-01",
@@ -86,7 +86,7 @@
     },
     {
       "organization": "Gather: a Progressive Fellowship of Christians and Friends",
-      "location": "Middlebury College, Middlebury, Vermont",
+      "location": "Middlebury College, VT",
       "position": "President, Treasurer",
       "url": "https://www.cambridgema.gov/cdd/transportation/forthepublic/pedestriancomm",
       "startDate": "2018-04-01",
@@ -100,7 +100,7 @@
   "education": [
     {
       "institution": "Middlebury College",
-      "location": "Middlebury, Vermont",
+      "location": "Middlebury, VT",
       "url": "https://www.middlebury.edu/",
       "area": "Geography",
       "studyType": "BA",
@@ -168,9 +168,15 @@
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Open Source Geospatial Analysis",
+        "Public Transit Research and Advocacy",
+        "Bicycle and Pedestrian Mobility",
         "Geography of Migration",
         "Regional Identity",
-        "Historical Geography of New England"      ]
+        "Historical Geography of New England",
+        "Historical Geography of Ireland",
+        "Post-industrial Landscapes"
+        "Sociolinguistics"
+      ]
     },
     {
       "name": "Hobbies",
