@@ -145,6 +145,58 @@
       "summary": "The Intercity Bus Atlas was developed to facilitate the promotion of intercity bus use by providing comprehensive service provider, route, and scheduling information in a public-facing online platform. NCHRP Research Report 1150: Implementation of the National Intercity Bus Atlas documents  the development of the data framework for mapping. Technical challenges and hesitancy by some private carriers to share certain operating data resulted in several key information gaps. The report offers suggested future improvements to the atlas such as including more service characteristics and strategies to address data collection challenges."
     }
   ],
+  "skills": [
+    {
+      "name": "GIS and Geospatial Analysis",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "QGIS",
+        "ArcGIS",
+        "PostGIS/SQL",
+        "GRASS",
+        "Google Earth Engine"
+      ]
+    },
+    {
+      "name": "Other Data Analysis and Preparation",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "R/RStudio",
+        "FTA STOPS Ridership Forecasting",
+        "GTFS Development",
+        "Microsoft Excel, incl. Power Query",
+        "SPSS",
+        "Q Research Software"
+      ]
+    },
+    {
+      "name": "Deliverable Production",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Microsoft Word",
+        "Microsoft PowerPoint",
+        "Adobe Photoshop",
+        "Adobe InDesign",
+        "Adobe Illustrator"
+      ]
+    },
+    {
+      "name": "Additional Skills",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Public Outreach and Engagement",
+        "Public Comment Period Coordination",
+        "Stakeholder Coordination",
+        "Survey Project Sampling Design",
+        "Questionnaire Design",
+        "Intercept Surveying",
+        "Staff Management",
+        "Intercultural Competency",
+        "Cultural Adaptation",
+        "Customer Service"
+      ]
+    }
+  ],
   "languages": [
     {
       "language": "English",
