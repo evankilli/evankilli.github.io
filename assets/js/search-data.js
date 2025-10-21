@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-bookshelf",
-          title: "bookshelf",
-          description: "",
+  },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/books/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -22,6 +22,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-bookshelf",
+          title: "bookshelf",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -103,51 +110,36 @@ ninja.data = [{
             },},{id: "news-set-off-to-start-a-new-chapter-in-portland-or",
           title: 'Set off to start a new chapter in Portland, OR!',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-vulnerability-modeling-for-sub-saharan-africa",
+          title: 'Vulnerability Modeling for Sub-Saharan Africa',
+          description: "A replication of a study modeling vulnerability to climate change in Malawi.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/RP-Malcomb-Report.html";
+            },},{id: "projects-gravity-model-of-spatial-interaction",
+          title: 'Gravity Model of Spatial Interaction',
+          description: "A QGIS Exploration of Gravity Models and Hospital Service Areas",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/gravity.html";
+            },},{id: "projects-replication-of-study-of-covid-19-healthcare-resource-access-in-il",
+          title: 'Replication of Study of COVID-19 Healthcare Resource Access in IL',
+          description: "A Python analysis of spatial accessibility to COVID-19 healthcare resources in and around Chicago.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project.html";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/report.html";
+            },},{id: "projects-replication-of-rosgen-stream-classification-analysis",
+          title: 'Replication of Rosgen Stream Classification Analysis',
+          description: "An R and GRASS replication of two studies, applying a classification scheme to Oregon&#39;s John Day River watershed.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project.html";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/rosgen_blog.html";
+            },},{id: "projects-access-to-public-transit-in-stockholm",
+          title: 'Access to Public Transit in Stockholm',
+          description: "A PostGIS analysis of access to various types of public transportation in Stockholm",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project.html";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/stockholm.html";
+            },},{id: "projects-urban-resilience-and-postgis",
+          title: 'Urban Resilience and PostGIS',
+          description: "A PostGIS analysis of access to various types of medical care in Dar-es-Salaam&#39;s wards.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project.html";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project.html";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project.html";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project.html";
+              window.location.href = "/projects/urban_resilience.html";
             },},{
         id: 'social-email',
         title: 'email',
