@@ -3,11 +3,13 @@ layout: page
 title: projects
 permalink: /projects/
 description: A growing collection of your cool projects.
-nav: false
-nav_order: 3
-display_categories: [work, fun]
+nav: true
+nav_order: 2
+display_categories: [midd-open-source-gis, midd-other]
 horizontal: false
 ---
+
+This page (still under construction :construction:) includes links to some GIS and other projects completed in my time at Middlebury and in my own free time, detailing some of the data used, what I was looking for, how I went about it, and what I ended up finding. I've included a list of possible future/in-progress projects on my [brainstorming page](https://evankilli.github.io/brainstorm) as well, and projects will be added here as I enter the final stages of work and obtain preliminary results.
 
 <!-- pages/projects.md -->
 <div class="projects">

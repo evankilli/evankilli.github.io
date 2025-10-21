@@ -13,7 +13,7 @@ profile:
     <p>bottom of the page to</p>
     <p>get in touch!</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
