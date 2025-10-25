@@ -18,6 +18,7 @@ This page is dedicating to keeping record of some of my ideas for geospatial and
   - Do I want to include as many coffee shops as I can? Just a sample (like 50 best)? Should I exclude all chains (even local)?
 - :thought_balloon: In a similar vein, map of *Pizza Proximity* in Connecticut, maybe some sort of shiny app map that allows you to filter them somewhat
   - Could use the [CT Pizza Trail](https://ctvisit.com/articles/connecticut-pizza-trail) as a guide to this, or find additional pizzerias
+  - :thought_balloon: Similarly try and classify various regions of CT or New England by prevalent pizza type, look at most reviewed pizza shops or something;
 - :thought_balloon: Something looking at the political future of New England and potential progressive pickups in the region, inspired by [this Substack](https://hudsonline.me/p/calculating-left-ness) investigating progressive politics in NY State
   - Again, need to think about how to measure this
   - CT allows fusion voting so could look at WFP vote share there, but MA gets more complicated
