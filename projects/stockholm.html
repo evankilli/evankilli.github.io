@@ -34,6 +34,7 @@
 <span class="k">select</span> <span class="n">osm_id</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">railway</span><span class="p">,</span> <span class="n">public_transport</span><span class="p">,</span> <span class="n">way</span> <span class="k">as</span> <span class="n">geom</span>
 <span class="k">from</span> <span class="n">se_point</span>
 <span class="k">where</span> <span class="n">railway</span> <span class="o">=</span> <span class="s1">'tram_stop'</span> <span class="k">or</span> <span class="n">railway</span> <span class="o">=</span> <span class="s1">'station'</span>
+<span class="c1">-- Create table of tram stop and railway station points</span>
 
 <span class="k">alter</span> <span class="k">table</span> <span class="n">sholm_rail_transit</span>
 <span class="k">add</span> <span class="k">column</span> <span class="n">within_sholm</span> <span class="nb">INTEGER</span>
@@ -48,7 +49,7 @@
 <span class="k">select</span> <span class="n">within_sholm</span><span class="p">,</span> <span class="k">count</span><span class="p">(</span><span class="n">osm_id</span><span class="p">)</span>
 <span class="k">from</span> <span class="n">sholm_rail_transit</span>
 <span class="k">group</span> <span class="k">by</span> <span class="n">within_sholm</span>
-<span class="c1">-- check</span>
+<span class="c1">-- check, all good!</span>
 
 <span class="k">delete</span> <span class="k">from</span> <span class="n">sholm_rail_transit</span>
   <span class="k">where</span> <span class="n">within_sholm</span> <span class="k">is</span> <span class="k">null</span>
@@ -60,7 +61,7 @@
 <span class="k">select</span> <span class="n">osm_id</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">railway</span><span class="p">,</span> <span class="n">public_transport</span><span class="p">,</span> <span class="n">highway</span><span class="p">,</span> <span class="n">way</span> <span class="k">as</span> <span class="n">geom</span>
 <span class="k">from</span> <span class="n">se_point</span>
 <span class="k">where</span> <span class="n">public_transport</span> <span class="o">=</span> <span class="s1">'stop_position'</span> <span class="k">or</span> <span class="n">public_transport</span> <span class="o">=</span> <span class="s1">'station'</span> <span class="k">or</span> <span class="n">highway</span> <span class="o">=</span> <span class="s1">'bus_stop'</span>
-<span class="c1">-- repeat process with expanded parameters</span>
+<span class="c1">-- repeat process of creating table of transit stops using expanded parameters</span>
 
 <span class="k">alter</span> <span class="k">table</span> <span class="n">sholm_transit</span>
 <span class="k">add</span> <span class="k">column</span> <span class="n">within_sholm</span> <span class="nb">INTEGER</span>
@@ -106,13 +107,13 @@
   <span class="k">from</span> <span class="n">res_osm_pt</span>
   <span class="k">join</span> <span class="n">sholm_hoods</span>
   <span class="k">on</span> <span class="n">st_intersects</span><span class="p">(</span><span class="n">sholm_hoods</span><span class="p">.</span><span class="n">geom</span><span class="p">,</span> <span class="n">res_osm_pt</span><span class="p">.</span><span class="n">geom</span><span class="p">)</span>
-<span class="c1">-- creating a table that joins ward id to each residence points</span>
+<span class="c1">-- creating a table that joins neighborhood id to each residence points</span>
 
  <span class="k">create</span> <span class="k">table</span> <span class="n">reshood_cnt</span> <span class="k">as</span>
    <span class="k">select</span> <span class="n">name</span><span class="p">,</span> <span class="k">count</span><span class="p">(</span><span class="n">osm_id</span><span class="p">)</span>
    <span class="k">from</span> <span class="n">res_hood</span>
    <span class="k">group</span> <span class="k">by</span> <span class="n">name</span>
-<span class="c1">-- creating a table that groups and counts residences in each ward</span>
+<span class="c1">-- creating a table that groups and counts residences in each neighborhood</span>
 
 <span class="k">create</span> <span class="k">table</span> <span class="n">hood_w_res_cnt</span> <span class="k">as</span>
   <span class="k">select</span>
@@ -122,46 +123,46 @@
   <span class="k">from</span> <span class="n">reshood_cnt</span>
   <span class="k">join</span> <span class="n">sholm_hoods</span>
   <span class="k">on</span> <span class="n">reshood_cnt</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">sholm_hoods</span><span class="p">.</span><span class="n">name</span>
-<span class="c1">-- joining resward_cnt w ward geometries to get a map of wards with counts of residences</span>
+<span class="c1">-- joining reshood_cnt w neighborhood geometries to get a map of neighborhood with counts of residences</span>
 
 </code></pre></div></div> <h3 id="7-count-how-many-residences-are-within-14-mi-of-rail-transit-stops-and-all-transit-stops">7) Count how many residences are within 1/4 mi of rail transit stops and all transit stops</h3> <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">SELECT</span> <span class="n">addgeometrycolumn</span><span class="p">(</span><span class="s1">'evan'</span><span class="p">,</span><span class="s1">'res_osm_pt'</span><span class="p">,</span><span class="s1">'utmgeom'</span><span class="p">,</span><span class="mi">32737</span><span class="p">,</span><span class="s1">'POINT'</span><span class="p">,</span><span class="mi">2</span><span class="p">);</span>
 <span class="k">UPDATE</span> <span class="n">res_osm_pt</span>
 <span class="k">SET</span> <span class="n">utmgeom</span> <span class="o">=</span> <span class="n">ST_Transform</span><span class="p">(</span><span class="n">geom</span><span class="p">,</span> <span class="mi">32737</span><span class="p">);</span>
-<span class="c1">--prepare residences for analysis</span>
+<span class="c1">--prepare residences for geographic analysis</span>
 
 <span class="k">SELECT</span> <span class="n">addgeometrycolumn</span><span class="p">(</span><span class="s1">'evan'</span><span class="p">,</span><span class="s1">'sholm_rail_transit'</span><span class="p">,</span><span class="s1">'utmgeom'</span><span class="p">,</span><span class="mi">32737</span><span class="p">,</span><span class="s1">'POINT'</span><span class="p">,</span><span class="mi">2</span><span class="p">);</span>
 <span class="k">UPDATE</span> <span class="n">sholm_rail_transit</span>
 <span class="k">SET</span> <span class="n">utmgeom</span> <span class="o">=</span> <span class="n">ST_Transform</span><span class="p">(</span><span class="n">geom</span><span class="p">,</span> <span class="mi">32737</span><span class="p">);</span>
-<span class="c1">-- prepare rail for analysis</span>
+<span class="c1">-- prepare rail for geographic analysis</span>
 
 
 <span class="k">SELECT</span> <span class="n">addgeometrycolumn</span><span class="p">(</span><span class="s1">'evan'</span><span class="p">,</span><span class="s1">'sholm_transit'</span><span class="p">,</span><span class="s1">'utmgeom'</span><span class="p">,</span><span class="mi">32737</span><span class="p">,</span><span class="s1">'POINT'</span><span class="p">,</span><span class="mi">2</span><span class="p">);</span>
 <span class="k">UPDATE</span> <span class="n">sholm_transit</span>
 <span class="k">SET</span> <span class="n">utmgeom</span> <span class="o">=</span> <span class="n">ST_Transform</span><span class="p">(</span><span class="n">geom</span><span class="p">,</span> <span class="mi">32737</span><span class="p">);</span>
-<span class="c1">-- prepare all transit for analysis</span>
+<span class="c1">-- prepare all transit for geographic analysis</span>
 
 
 <span class="k">SELECT</span> <span class="n">addgeometrycolumn</span><span class="p">(</span><span class="s1">'evan'</span><span class="p">,</span><span class="s1">'hood_w_res_cnt'</span><span class="p">,</span><span class="s1">'utmgeom'</span><span class="p">,</span><span class="mi">32737</span><span class="p">,</span><span class="s1">'POLYGON'</span><span class="p">,</span><span class="mi">2</span><span class="p">);</span>
 <span class="k">UPDATE</span> <span class="n">hood_w_res_cnt</span>
 <span class="k">SET</span> <span class="n">utmgeom</span> <span class="o">=</span> <span class="n">ST_Transform</span><span class="p">(</span><span class="n">geom</span><span class="p">,</span> <span class="mi">32737</span><span class="p">);</span>
-<span class="c1">-- prepare hoods for analysis</span>
+<span class="c1">-- prepare neighborhoods for geographic analysis</span>
 
 
 <span class="k">ALTER</span> <span class="k">TABLE</span> <span class="n">res_osm_pt</span> <span class="k">ADD</span> <span class="k">COLUMN</span> <span class="n">access_rail</span> <span class="nb">INTEGER</span><span class="p">;</span>
 <span class="k">ALTER</span> <span class="k">TABLE</span> <span class="n">res_osm_pt</span> <span class="k">ADD</span> <span class="k">COLUMN</span> <span class="n">access_all</span> <span class="nb">INTEGER</span><span class="p">;</span>
-<span class="c1">-- add access to residential table</span>
+<span class="c1">-- add access yes/no columns to residential table</span>
 
 <span class="k">UPDATE</span> <span class="n">res_osm_pt</span>
 <span class="k">SET</span> <span class="n">access_rail</span> <span class="o">=</span> <span class="mi">1</span>
 <span class="k">FROM</span> <span class="n">sholm_rail_transit</span>
 <span class="k">WHERE</span> <span class="n">ST_DWITHIN</span><span class="p">(</span><span class="n">res_osm_pt</span><span class="p">.</span><span class="n">utmgeom</span><span class="p">,</span> <span class="n">sholm_rail_transit</span><span class="p">.</span><span class="n">utmgeom</span><span class="p">,</span> <span class="mi">402</span><span class="p">.</span><span class="mi">34</span><span class="p">);</span>
-<span class="c1">-- make access equal one when residence is within 1/4mi or 402.34m of rail transit</span>
+<span class="c1">-- make access_rail equal one when residence is within 1/4mi or 402.34m of rail transit</span>
 
 <span class="k">UPDATE</span> <span class="n">res_osm_pt</span>
 <span class="k">SET</span> <span class="n">access_all</span> <span class="o">=</span> <span class="mi">1</span>
 <span class="k">FROM</span> <span class="n">sholm_transit</span>
 <span class="k">WHERE</span> <span class="n">ST_DWITHIN</span><span class="p">(</span><span class="n">res_osm_pt</span><span class="p">.</span><span class="n">utmgeom</span><span class="p">,</span> <span class="n">sholm_transit</span><span class="p">.</span><span class="n">utmgeom</span><span class="p">,</span> <span class="mi">402</span><span class="p">.</span><span class="mi">34</span><span class="p">);</span>
-<span class="c1">-- make access equal one when residence is within 1/4mi or 402.34m of any transit</span>
+<span class="c1">-- make access_all equal one when residence is within 1/4mi or 402.34m of any transit</span>
 
 <span class="k">select</span> <span class="o">*</span>
 <span class="k">from</span> <span class="n">res_osm_pt</span>
@@ -170,7 +171,7 @@
 <span class="k">select</span> <span class="n">access_rail</span><span class="p">,</span> <span class="k">count</span><span class="p">(</span><span class="n">osm_id</span><span class="p">)</span>
 <span class="k">from</span> <span class="n">res_osm_pt</span>
 <span class="k">group</span> <span class="k">by</span> <span class="n">access_rail</span>
-<span class="c1">-- lets check</span>
+<span class="c1">-- lets check, works!</span>
 
 <span class="k">select</span> <span class="o">*</span>
 <span class="k">from</span> <span class="n">res_osm_pt</span>
@@ -179,19 +180,19 @@
 <span class="k">select</span> <span class="n">access_all</span><span class="p">,</span> <span class="k">count</span><span class="p">(</span><span class="n">osm_id</span><span class="p">)</span>
 <span class="k">from</span> <span class="n">res_osm_pt</span>
 <span class="k">group</span> <span class="k">by</span> <span class="n">access_all</span>
-<span class="c1">-- lets check</span>
+<span class="c1">-- lets check, works!</span>
 
 <span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">res_within_rail</span> <span class="k">AS</span>
 <span class="k">SELECT</span> <span class="o">*</span>
 <span class="k">FROM</span> <span class="n">res_osm_pt</span>
 <span class="k">WHERE</span> <span class="n">access_rail</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="c1">-- table with only residences within buffer</span>
+<span class="c1">-- create table with only those residences within buffer of rail transit</span>
 
 <span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">res_within_all</span> <span class="k">AS</span>
 <span class="k">SELECT</span> <span class="o">*</span>
 <span class="k">FROM</span> <span class="n">res_osm_pt</span>
 <span class="k">WHERE</span> <span class="n">access_all</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="c1">-- table with only residences within buffer</span>
+<span class="c1">-- create table with only those residences within buffer of all transit</span>
 </code></pre></div></div> <h3 id="7-join-residential-points-within-buffer-zone-to-wards-with-count-count-total-number-of-residences-within-buffer-and-calculate-percentages">7) Join residential points within buffer zone to wards with count, count total number of residences within buffer, and calculate percentages</h3> <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">create</span> <span class="k">table</span> <span class="n">hoods_w_rail_access</span> <span class="k">as</span>
   <span class="k">select</span>
   <span class="n">a</span><span class="p">.</span><span class="n">hood_name</span> <span class="k">as</span> <span class="n">name</span> <span class="p">,</span> <span class="k">count</span><span class="p">(</span><span class="n">b</span><span class="p">.</span><span class="n">access_rail</span><span class="p">)</span> <span class="k">as</span> <span class="n">rail_access</span>
@@ -208,6 +209,8 @@
   <span class="k">join</span> <span class="n">res_within_all</span> <span class="n">b</span>
   <span class="k">on</span> <span class="n">st_intersects</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">geom</span><span class="p">,</span> <span class="n">b</span><span class="p">.</span><span class="n">geom</span><span class="p">)</span>
   <span class="k">group</span> <span class="k">by</span> <span class="n">a</span><span class="p">.</span><span class="n">hood_name</span>
+  <span class="c1">-- count residences with access to all transit in each neighborhood</span>
+
 
 
 <span class="k">create</span> <span class="k">table</span> <span class="n">hoods_1</span> <span class="k">as</span>
@@ -219,8 +222,7 @@
     <span class="k">from</span> <span class="n">hood_w_res_cnt</span>
     <span class="k">full</span> <span class="k">outer</span> <span class="k">join</span> <span class="n">hoods_w_rail_access</span>
     <span class="k">on</span> <span class="n">hood_w_res_cnt</span><span class="p">.</span><span class="n">hood_name</span> <span class="o">=</span> <span class="n">hoods_w_rail_access</span><span class="p">.</span><span class="n">name</span>
-<span class="c1">-- join the wards with number with access to the table with the names,</span>
-<span class="c1">-- total count, and geom</span>
+<span class="c1">-- join the wards with number with access to the table with the names, total count, and geom</span>
 
 <span class="k">create</span> <span class="k">table</span> <span class="n">hoods_final</span> <span class="k">as</span>
     <span class="k">select</span>
@@ -232,6 +234,7 @@
     <span class="k">from</span> <span class="n">hoods_1</span>
     <span class="k">join</span> <span class="n">hoods_w_transit_access</span>
     <span class="k">on</span> <span class="n">hoods_1</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">hoods_w_transit_access</span><span class="p">.</span><span class="n">name</span>
+<span class="c1">-- Perform similar join to get number of residences with access to all transit as well</span>
 
 <span class="k">update</span> <span class="n">hoods_final</span>
   <span class="k">set</span> <span class="n">rail_access</span> <span class="o">=</span> <span class="mi">0</span>
@@ -239,8 +242,7 @@
 <span class="k">update</span> <span class="n">hoods_final</span>
   <span class="k">set</span> <span class="n">transit_access</span> <span class="o">=</span> <span class="mi">0</span>
   <span class="k">where</span> <span class="n">transit_access</span> <span class="k">is</span> <span class="k">null</span>
-<span class="c1">-- make it 0 instead of null</span>
-<span class="c1">-- not needed</span>
+<span class="c1">-- make access columns 0 instead of null</span>
 
 <span class="k">ALTER</span> <span class="k">TABLE</span> <span class="n">hoods_final</span>
 <span class="k">ADD</span> <span class="k">COLUMN</span> <span class="n">pct_rail</span> <span class="nb">float</span><span class="p">(</span><span class="mi">8</span><span class="p">);</span>
