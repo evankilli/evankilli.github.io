@@ -6,7 +6,7 @@ subtitle: A bit about me!
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: IMG_7102_copy_2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Click on the icons at the</p>
