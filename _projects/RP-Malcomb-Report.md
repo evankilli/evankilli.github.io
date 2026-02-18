@@ -138,8 +138,6 @@ While very general patterns seem to hold, consistent undercounting on the part o
 
 ### Resilience
 
-![Map of Vulnerability to Climate Change in Malawi](content/RP-Malcomb/vulnerability.png)
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/content/RP-Malcomb/vulnerability.png" title="Vulnerability to climate change" class="img-fluid rounded z-depth-1" %}
@@ -151,11 +149,9 @@ While very general patterns seem to hold, consistent undercounting on the part o
 
 The map displayed above shows vulnerability to climate change in Malawi, as measured using a combination of the DHS "adaptive capacity" data, FEWSNET's livelihood resilience data, and UNEP's flood and drought maps. Results are somewhat less clear initially than the results for adaptive capacity, but interestingly, the north seems to generally return "better" values in this analysis as well, and the lakeshore returns "worse" values, with higher vulnerability. Interestingly, the south of the country, through which the Shire River flows, returns values generally in the middle of the range, but low risk of drought near water sources could in some areas balance out higher flood risk. The only areas with *high* vulnerability occur in small belts, and largely in the far south of the country.
 
-![Map of Vulnerability to Climate Change in Malawi](content/RP-Malcomb/fig5comp.png)
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ontent/RP-Malcomb/fig5comp.png" title="Resilience/Vulnerability Comparison" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/content/RP-Malcomb/fig5comp.png" title="Resilience/Vulnerability Comparison" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
