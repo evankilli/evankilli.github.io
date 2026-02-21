@@ -8,12 +8,12 @@ cover: assets/img/book_covers/nordic_socialism.jpg
 categories: nonfiction politics
 tags: nonfiction politics left socialism social-democracy nordic denmark
 buy_link: https://uwpress.wisc.edu/Books/N/Nordic-Socialism
-started: 2024-09-01
-# finished: 2024-01-31
+started: 2025-09-01
+finished: 2026-02-15
 released: 2025
 # stars: 3.5
 # goodreads_review: 6318556633
-status: Reading #can be abandoned,finished,interested,paused,queued,reading,reread
+status: Finished #can be abandoned,finished,interested,paused,queued,reading,reread
 ---
 
 Review in progress!

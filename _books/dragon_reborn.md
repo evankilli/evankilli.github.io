@@ -9,11 +9,11 @@ categories: fiction fantasy
 tags: fiction fantasy magic tv-adaptation
 buy_link: https://us.macmillan.com/books/9780765334350/thedragonreborn/
 started: 2025-09-15
-# finished: 2025-09-15
+finished: 2025-10-15
 released: 1991
 # stars: 4
 # goodreads_review: 6318556633
-status: Reading #can be abandoned,finished,interested,paused,queued,reading,reread
+status: Finished #can be abandoned,finished,interested,paused,queued,reading,reread
 ---
 
 Review in progress!
