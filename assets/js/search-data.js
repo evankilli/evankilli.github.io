@@ -137,6 +137,31 @@ ninja.data = [{
           description: "A collection of photos taken in my first year living in and adventuring around Oregon.",
           section: "Photography",handler: () => {
               window.location.href = "/photography/oregon2425.html";
+            },},{id: "photography-philly-summer-23",
+          title: 'Philly - Summer 23',
+          description: "A collection of photos taken in Philly, Summer 2023.",
+          section: "Photography",handler: () => {
+              window.location.href = "/photography/phillysu23.html";
+            },},{id: "photography-providence-spring-24",
+          title: 'Providence - Spring 24',
+          description: "A collection of photos taken in Providence, Spring 2024.",
+          section: "Photography",handler: () => {
+              window.location.href = "/photography/provsp24.html";
+            },},{id: "photography-san-francisco-spring-24",
+          title: 'San Francisco - Spring 24',
+          description: "A collection of photos taken in San Franciso, Fall 2024.",
+          section: "Photography",handler: () => {
+              window.location.href = "/photography/sanfranf24.html";
+            },},{id: "photography-sturbridge-summer-23",
+          title: 'Sturbridge - Summer 23',
+          description: "A collection of photos taken in Sturbridge,  Massachusetts, Summer 2023.",
+          section: "Photography",handler: () => {
+              window.location.href = "/photography/sturbsu23.html";
+            },},{id: "photography-taiwan-summer-23",
+          title: 'Taiwan - Summer 23',
+          description: "A collection of photos taken in Taiwan, Spring 2025.",
+          section: "Photography",handler: () => {
+              window.location.href = "/photography/taiwansp25.html";
             },},{id: "projects-vulnerability-modeling-for-sub-saharan-africa",
           title: 'Vulnerability Modeling for Sub-Saharan Africa',
           description: "A replication of a study modeling vulnerability to climate change in Malawi.",
