@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-photography",
           title: "photography",
-          description: "A small portfolio of film and other projects.",
+          description: "A small portfolio of film and other photography.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/photography/";
