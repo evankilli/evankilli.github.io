@@ -117,7 +117,27 @@ ninja.data = [{
             },},{id: "news-set-off-to-start-a-new-chapter-in-portland-or",
           title: 'Set off to start a new chapter in Portland, OR!',
           description: "",
-          section: "News",},{id: "projects-vulnerability-modeling-for-sub-saharan-africa",
+          section: "News",},{id: "photography-black-mountain-fall-23",
+          title: 'Black Mountain - Fall 23',
+          description: "A collection of photos taken in Black Mountain, North Carolina, Fall 2023.",
+          section: "Photography",handler: () => {
+              window.location.href = "/photography/blackmtf23.html";
+            },},{id: "photography-boston-spring-24",
+          title: 'Boston - Spring 24',
+          description: "A collection of photos taken in Greater Boston in Spring 2024.",
+          section: "Photography",handler: () => {
+              window.location.href = "/photography/bostonsp24.html";
+            },},{id: "photography-mexico-spring-24",
+          title: 'Mexico - Spring 24',
+          description: "A collection of photos taken in Mazatlán and Puerto Vallarta, Mexico, Spring 2024.",
+          section: "Photography",handler: () => {
+              window.location.href = "/photography/mexicosp24.html";
+            },},{id: "photography-oregon-2024-25",
+          title: 'Oregon - 2024-25',
+          description: "A collection of photos taken in my first year living in and adventuring around Oregon.",
+          section: "Photography",handler: () => {
+              window.location.href = "/photography/oregon2425.html";
+            },},{id: "projects-vulnerability-modeling-for-sub-saharan-africa",
           title: 'Vulnerability Modeling for Sub-Saharan Africa',
           description: "A replication of a study modeling vulnerability to climate change in Malawi.",
           section: "Projects",handler: () => {
