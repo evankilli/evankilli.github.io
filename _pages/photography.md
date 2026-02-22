@@ -25,21 +25,21 @@ I try my best to not try too hard and just let myself take picture of whatever c
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  {% assign categorized_photography = site.photography | where: "category", category %}
+  {% assign sorted_photography = categorized_photography | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
+    {% for project in sorted_photography %}
+      {% include photography_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
+    {% for project in sorted_photography %}
+      {% include photography.liquid %}
     {% endfor %}
   </div>
   {% endif %}
@@ -49,7 +49,7 @@ I try my best to not try too hard and just let myself take picture of whatever c
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_photography = site.photography | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 
@@ -57,15 +57,15 @@ I try my best to not try too hard and just let myself take picture of whatever c
 
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
+    {% for project in sorted_photography %}
+      {% include photography_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
+    {% for project in sorted_photography %}
+      {% include photography.liquid %}
     {% endfor %}
   </div>
   {% endif %}

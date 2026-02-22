@@ -1,0 +1,35 @@
+<div class="col">
+  <a href="{% if photography.redirect %}{{ photography.redirect }}{% else %}{{ photography.url | relative_url }}{% endif %}">
+    <div class="card h-100 hoverable">
+      {% if photography.img %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=photography.img
+          sizes = "250px"
+          alt="photography thumbnail"
+          class="card-img-top"
+        %}
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title">{{ photography.title }}</h2>
+        <p class="card-text">{{ photography.description }}</p>
+        <div class="row ml-1 mr-1 p-0">
+          {% if photography.github %}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="{{ photography.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+              </div>
+              {% if photography.github_stars %}
+                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                  <i class="fa-solid fa-star"></i>
+                  <span id="{{ photography.github_stars }}-stars"></span>
+                </span>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
