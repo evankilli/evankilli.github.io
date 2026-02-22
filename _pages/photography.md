@@ -2,7 +2,7 @@
 layout: page
 title: photography
 permalink: /photography/
-description: A small portfolio of film and other photography.
+description: A small portfolio of film and other projects.
 nav: true
 nav_order: 4
 display_categories: [2023, 2024, 2025]
@@ -25,20 +25,20 @@ I try my best to not try too hard and just let myself take picture of whatever c
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_photography = site.photography | where: "category", category %}
-  {% assign sorted_photography = categorized_photography | sort: "importance" %}
+  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_photography %}
+    {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_photography %}
+    {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
   </div>
@@ -49,7 +49,7 @@ I try my best to not try too hard and just let myself take picture of whatever c
 
 <!-- Display projects without categories -->
 
-{% assign sorted_photography = site.photography | sort: "importance" %}
+{% assign sorted_projects = site.projects | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 
@@ -57,14 +57,14 @@ I try my best to not try too hard and just let myself take picture of whatever c
 
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_photography %}
+    {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_photography %}
+    {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
   </div>
