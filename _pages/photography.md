@@ -2,7 +2,7 @@
 layout: page
 title: photography
 permalink: /photography/
-description: A small portfolio of film and other projects.
+description: A small portfolio of film and other photography.
 nav: true
 nav_order: 4
 display_categories: [2023, 2024, 2025]
@@ -31,14 +31,14 @@ I try my best to not try too hard and just let myself take picture of whatever c
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_photography %}
+    {% for photography in sorted_photography %}
       {% include photography_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_photography %}
+    {% for photography in sorted_photography %}
       {% include photography.liquid %}
     {% endfor %}
   </div>
@@ -57,14 +57,14 @@ I try my best to not try too hard and just let myself take picture of whatever c
 
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_photography %}
+    {% for photography in sorted_photography %}
       {% include photography_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_photography %}
+    {% for photography in sorted_photography %}
       {% include photography.liquid %}
     {% endfor %}
   </div>
