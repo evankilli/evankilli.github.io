@@ -4,10 +4,12 @@ title: photography
 permalink: /photography/
 description: A small portfolio of film and other photography.
 nav: true
-nav_order: 5
+nav_order: 4
 display_categories: [2023, 2024, 2025]
 horizontal: false
 ---
+
+Portfolio **under construction** :construction:
 
 I first picked up a "real" camera - a Pentax K1000 - one summer many many years ago at Camp Calumet on the shores of Lake Ossippee up in New Hampshire. I don't remember much about any specific summer, just the general vibes, but I do know that after that, I almost *always* had a photography class filling one of my three daily activity slots. Eventually, I saved up enough money and BestBuy giftcards to grab myself a basic DSLR, and the rest is history!
 
