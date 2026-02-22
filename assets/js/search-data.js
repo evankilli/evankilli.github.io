@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
+        },{id: "nav-photography",
+          title: "photography",
+          description: "A small portfolio of film and other projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/photography/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "A brief description of my professional, educational, and volunteer experiences.",
