@@ -117,48 +117,48 @@ ninja.data = [{
             },},{id: "news-set-off-to-start-a-new-chapter-in-portland-or",
           title: 'Set off to start a new chapter in Portland, OR!',
           description: "",
-          section: "News",},{id: "photography-black-mountain-fall-23",
-          title: 'Black Mountain - Fall 23',
+          section: "News",},{id: "photography-black-mountain",
+          title: 'Black Mountain',
           description: "A collection of photos taken in Black Mountain, North Carolina, Fall 2023.",
           section: "Photography",handler: () => {
               window.location.href = "/photography/blackmtf23.html";
-            },},{id: "photography-boston-spring-24",
-          title: 'Boston - Spring 24',
+            },},{id: "photography-boston",
+          title: 'Boston',
           description: "A collection of photos taken in Greater Boston in Spring 2024.",
           section: "Photography",handler: () => {
               window.location.href = "/photography/bostonsp24.html";
-            },},{id: "photography-mexico-spring-24",
-          title: 'Mexico - Spring 24',
+            },},{id: "photography-mexico",
+          title: 'Mexico',
           description: "A collection of photos taken in Mazatlán and Puerto Vallarta, Mexico, Spring 2024.",
           section: "Photography",handler: () => {
               window.location.href = "/photography/mexicosp24.html";
-            },},{id: "photography-oregon-2024-25",
-          title: 'Oregon - 2024-25',
+            },},{id: "photography-oregon",
+          title: 'Oregon',
           description: "A collection of photos taken in my first year living in and adventuring around Oregon.",
           section: "Photography",handler: () => {
               window.location.href = "/photography/oregon2425.html";
-            },},{id: "photography-philly-summer-23",
-          title: 'Philly - Summer 23',
+            },},{id: "photography-philly",
+          title: 'Philly',
           description: "A collection of photos taken in Philly, Summer 2023.",
           section: "Photography",handler: () => {
               window.location.href = "/photography/phillysu23.html";
-            },},{id: "photography-providence-spring-24",
-          title: 'Providence - Spring 24',
+            },},{id: "photography-providence",
+          title: 'Providence',
           description: "A collection of photos taken in Providence, Spring 2024.",
           section: "Photography",handler: () => {
               window.location.href = "/photography/provsp24.html";
-            },},{id: "photography-san-francisco-spring-24",
-          title: 'San Francisco - Spring 24',
+            },},{id: "photography-san-francisco",
+          title: 'San Francisco',
           description: "A collection of photos taken in San Franciso, Fall 2024.",
           section: "Photography",handler: () => {
               window.location.href = "/photography/sanfranf24.html";
-            },},{id: "photography-sturbridge-summer-23",
-          title: 'Sturbridge - Summer 23',
+            },},{id: "photography-sturbridge",
+          title: 'Sturbridge',
           description: "A collection of photos taken in Sturbridge,  Massachusetts, Summer 2023.",
           section: "Photography",handler: () => {
               window.location.href = "/photography/sturbsu23.html";
-            },},{id: "photography-taiwan-summer-23",
-          title: 'Taiwan - Summer 23',
+            },},{id: "photography-taiwan",
+          title: 'Taiwan',
           description: "A collection of photos taken in Taiwan, Spring 2025.",
           section: "Photography",handler: () => {
               window.location.href = "/photography/taiwansp25.html";
