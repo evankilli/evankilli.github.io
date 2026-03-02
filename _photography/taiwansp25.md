@@ -14,7 +14,7 @@ By some random stroke of luck, though, I decided to check out tickets to Taipei 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/content/TaiwanSp25/TaiwanTripMap.png" title="Map of our Travels in Taiwan" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/TaiwanSp25/TaiwanTripMap.png" title="Map of our Travels in Taiwan" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -25,7 +25,7 @@ Jackson arrived a few days before me and explored the East Coast, taking the tra
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/content/TaiwanSp25/IMG_7679.JPG" title="Gushan-Qijin Ferry, Kaohsiung" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/TaiwanSp25/IMG_7679.JPG" title="Gushan-Qijin Ferry, Kaohsiung" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -36,13 +36,13 @@ Kaohsiung, the major city of the south of the island and an anchor of Hokkien/Ta
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/content/TaiwanSp25/IMG_7649.JPG" title="Mirror in an Alley" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/TaiwanSp25/IMG_7649.JPG" title="Mirror in an Alley" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="aassets/img/content/TaiwanSp25/IMG_7660.JPG" title="Tainan Confucius Temple" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="aassets/img/TaiwanSp25/IMG_7660.JPG" title="Tainan Confucius Temple" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/content/TaiwanSp25/IMG_7661.JPG" title="Our Lady Queen of China Cathedral, Tainan" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/TaiwanSp25/IMG_7661.JPG" title="Our Lady Queen of China Cathedral, Tainan" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -53,10 +53,10 @@ Kaohsiung also served as our home base to visit the old capital of Tainan, proba
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/content/TaiwanSp25/IMG_7651.JPG" title="Tour bus, Shizhuo" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/TaiwanSp25/IMG_7651.JPG" title="Tour bus, Shizhuo" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/content/TaiwanSp25/IMG_7680.JPG" title="Taiwan HSR, Chiayi HSR Station" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/TaiwanSp25/IMG_7680.JPG" title="Taiwan HSR, Chiayi HSR Station" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -67,10 +67,10 @@ Headed north from Kaohsiung by local train (TRA, or Taiwan Railways Administrati
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/content/TaiwanSp25/IMG_7665.JPG" title="Taipei 101" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/TaiwanSp25/IMG_7665.JPG" title="Taipei 101" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-6 mt-md-0">
-        {% include figure.liquid loading="eager" path="aassets/img/content/TaiwanSp25/IMG_7690.JPG" title="Sidestreet, Da'an" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="aassets/img/TaiwanSp25/IMG_7690.JPG" title="Sidestreet, Da'an" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -79,13 +79,13 @@ Headed north from Kaohsiung by local train (TRA, or Taiwan Railways Administrati
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/content/TaiwanSp25/IMG_7686.JPG" title="Boys in a mirror, Maokong District" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/TaiwanSp25/IMG_7686.JPG" title="Boys in a mirror, Maokong District" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="aassets/img/content/TaiwanSp25/IMG_7666.JPG" title="Protest, Bao'ai Special Zone" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="aassets/img/TaiwanSp25/IMG_7666.JPG" title="Protest, Bao'ai Special Zone" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/content/TaiwanSp25/IMG_7669.JPG" title="Taipei Metro Brown Line, Zhongxiao Fuxing Station" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/TaiwanSp25/IMG_7669.JPG" title="Taipei Metro Brown Line, Zhongxiao Fuxing Station" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -94,13 +94,13 @@ Headed north from Kaohsiung by local train (TRA, or Taiwan Railways Administrati
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/content/TaiwanSp25/IMG_7687.JPG" title="Boys in a mirror, Maokong District" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/TaiwanSp25/IMG_7687.JPG" title="Boys in a mirror, Maokong District" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="aassets/img/content/TaiwanSp25/IMG_7689.JPG" title="Protest, Bao'ai Special Zone" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="aassets/img/TaiwanSp25/IMG_7689.JPG" title="Protest, Bao'ai Special Zone" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/content/TaiwanSp25/IMG_7695.JPG" title="Taipei Metro Brown Line, Zhongxiao Fuxing Station" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/TaiwanSp25/IMG_7695.JPG" title="Taipei Metro Brown Line, Zhongxiao Fuxing Station" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
