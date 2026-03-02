@@ -5,7 +5,7 @@ permalink: /photography/
 description: A small portfolio of film and other photography.
 nav: true
 nav_order: 4
-display_categories: [2023, 2024, 2025]
+display_categories: [2025, 2024, 2023]
 horizontal: false
 ---
 
@@ -15,7 +15,7 @@ I first picked up a "real" camera - a Pentax K1000 - one summer many many years 
 
 I've gone through ebbs and flows, but I've tried to collect some of my work below. I've unfortunately lost a fair amount of my high school portfolio, but I've redeiscovered my love for taking pictures with the help of some old film cameras collected from various family members and the encouragement of one of my favorite cousins. I've tried my best to catalog photos by location and (if at a place I call "home") time of year. 
 
-I try my best to not try too hard and just let myself take picture of whatever catches my eye in the moment - I have a particular penchant for interesting *texture*, transit and urban life, sharp lighting, juxtaposition, and the occasional item I just find silly.
+I try my best to not try too hard and just let myself take picture of whatever catches my eye in the moment; this extends to editing too - unless something is glaring enough to bother me, I usually let some imperfection remain rather than overcropping, such is life with film, old cameras, and glasses! Taking pictures, I have a particular penchant for interesting *texture*, transit and urban life, sharp lighting, juxtaposition, and the occasional item I just find silly.
 
 <!-- pages/projects.md -->
 <div class="projects">

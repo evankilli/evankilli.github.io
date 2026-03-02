@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Boston - Spring 24
+title: Boston
 description: A collection of photos taken in Greater Boston in Spring 2024.
 img: assets/img/BostonSp24/000089370022.jpg
 # importance: 1

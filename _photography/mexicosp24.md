@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mexico - Spring 24
+title: Mexico
 description: A collection of photos taken in Mazatlán and Puerto Vallarta, Mexico, Spring 2024.
 img: assets/img/MexicoSp25/000089390034.jpg
 # importance: 1

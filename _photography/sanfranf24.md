@@ -1,6 +1,6 @@
 ---
 layout: page
-title: San Francisco - Spring 24
+title: San Francisco
 description: A collection of photos taken in San Franciso, Fall 2024.
 img: assets/img/SanFranF24/000059360018.jpg
 # importance: 1

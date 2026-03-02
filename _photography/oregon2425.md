@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Oregon - 2024-25
+title: Oregon
 description: A collection of photos taken in my first year living in and adventuring around Oregon.
 img: assets/img/Oregon2425/000059360034.jpg
 # importance: 1
