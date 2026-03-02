@@ -13,7 +13,7 @@ As much as I may or may not miss life in the Northeast, one major benefit for so
 By some random stroke of luck, though, I decided to check out tickets to Taipei "for sh\*ts and gigs." A friend had recently returned from teaching English with Fulbright there, it looked pretty, and I knew it had high speed rail, which was altogether enough to make me a little curious. Popping some dates into Google Flights, though, found us tickets for just $600, not all that much more than tickets to Mexico City. Thinking we probably wouldn't see tickets across the Pacific for a price like that anytime soon, we pulled the trigger and ended up having the time of our lives. 
 
 <div class="row justify-content-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+  <div class="col-md-8 col-lg-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/TaiwanSp25/TaiwanTripMap.png" title="Map of our Travels in Taiwan" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -66,10 +66,10 @@ Kaohsiung also served as our home base to visit the old capital of Tainan, proba
 Headed north from Kaohsiung by local train (TRA, or Taiwan Railways Administration), we hopped off in Chiayi to take a slightly harrowing ride into the island's central mountain spine to stay in Fenqihu, one of the last stops on the way up to Alishan National Park. We stayed there for maybe two and a half days, enjoying hearty cooking, a meticulously-well-kept 80's-era hotel, and quiet mountain vibes and views. I got less great photos here on my camera than on my phone unfortunately, and one sight in particular - Fenqihu's insane nightly fireflies - was barely able to be captured on either!
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/TaiwanSp25/IMG_7665.jpg" title="Taipei 101" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-6 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/TaiwanSp25/IMG_7690.JPG" title="Sidestreet, Da'an" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
