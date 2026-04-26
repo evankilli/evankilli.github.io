@@ -18,7 +18,7 @@ We didn't go under the best of circumstances, the whole family flew in for a fun
         {% include figure.liquid loading="eager" path="assets/img/BlackMtF23/000089360033.jpg" title="Shop cat, Thurston Woodworks" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-12">
-        {% include figure.liquid loading="eager" path="assets/img/BlackMtF23/000089360030.jpg" title="Blue Mountains from my aunt's driveway class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/BlackMtF23/000089360030.jpg" title="Blue Mountains from my aunt's driveway" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
