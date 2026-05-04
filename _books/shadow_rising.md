@@ -8,7 +8,7 @@ cover: assets/img/book_covers/shadow_rising.jpg
 categories: fiction fantasy
 tags: fiction fantasy magic tv-adaptation
 buy_link: https://us.macmillan.com/books/9780765334671/theshadowrising/
-started: 2025-04-01
+started: 2026-04-01
 # finished: 
 released: 1992
 # stars: 4
