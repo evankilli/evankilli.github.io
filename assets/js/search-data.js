@@ -94,6 +94,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/in_spite_of.html";
+            },},{id: "books-one-man-39-s-terrorist-a-political-history-of-the-ira",
+          title: 'One Man&amp;#39;s Terrorist - A Political History of the IRA',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/ira_history.html";
+            },},{id: "books-the-left-hand-of-darkness",
+          title: 'The Left Hand of Darkness',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/left_hand.html";
             },},{id: "books-nordic-socialism",
           title: 'Nordic Socialism',
           description: "",
@@ -104,6 +114,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/second_foundation.html";
+            },},{id: "books-shadow-rising",
+          title: 'Shadow Rising',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/shadow_rising.html";
             },},{id: "books-the-border-a-journey-around-russia",
           title: 'The Border: A Journey Around Russia',
           description: "",
