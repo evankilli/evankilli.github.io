@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 1
-display_categories: [midd-open-source-gis, midd-other]
+display_categories: [personal, midd-open-source-gis, midd-other]
 horizontal: false
 ---
 
