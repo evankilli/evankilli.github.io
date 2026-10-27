@@ -187,6 +187,11 @@ ninja.data = [{
           description: "A QGIS Exploration of Gravity Models and Hospital Service Areas",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gravity.html";
+            },},{id: "projects-network-analysis-of-the-connectict-pizza-trail",
+          title: 'Network Analysis of the Connectict Pizza Trail',
+          description: "An R-based network analysis of CT Pizza Trail locations",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pizza%20map.html";
             },},{id: "projects-replication-of-study-of-covid-19-healthcare-resource-access-in-il",
           title: 'Replication of Study of COVID-19 Healthcare Resource Access in IL',
           description: "A Python analysis of spatial accessibility to COVID-19 healthcare resources in and around Chicago.",
