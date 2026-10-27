@@ -16,9 +16,16 @@ Connecticut may often get stuck with the impressions of Interstate 84 travellers
 
 ## The Pizza Trail
 
-[![Official CT Pizza Trail Map](/assets/img/CTPizzaTrailMap.png)](https://ctvisit.com/articles/connecticut-pizza-trail)
+<a href="https://ctvisit.com/articles/connecticut-pizza-trail" target="_blank" rel="noopener noreferrer">
+  <img
+    src="/assets/img/CTPizzaTrailMap.png"
+    alt="Official CT Pizza Trail Map"
+    class="img-fluid"
+    style="max-width: 100%; height: auto; display: block;"
+  />
+</a>
 <div class="caption">
-    An official map of the Connecticut Pizza Trail developed by the Connecticut Office of Tourism.
+    An [official map of the Connecticut Pizza Trail](https://ctvisit.com/articles/connecticut-pizza-trail) developed by the [Connecticut Office of Tourism](https://portal.ct.gov/decd/services/statewide-marketing-tourism/about-the-office-of-statewide-marketing-tourism).
 </div>
 
 One element of this initiative was the creation of the [Connecticut Pizza Trail](https://ctvisit.com/articles/connecticut-pizza-trail), with locations selected with the help of an "expert panel" and public voting. In the end, 121 pizzerias across the state were selected, representing five distinct styles of slice and polka-dotted across the state. These were:
