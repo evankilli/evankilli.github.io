@@ -9,11 +9,11 @@ categories: fiction fantasy
 tags: fiction fantasy magic tv-adaptation
 buy_link: https://us.macmillan.com/books/9780765334671/theshadowrising/
 started: 2026-04-01
-# finished: 
+finished: 2026-06-17
 released: 1992
-# stars: 4
+stars: 3.5
 # goodreads_review: 6318556633
-status: reading #can be abandoned,finished,interested,paused,queued,reading,reread
+status: Finished  #can be abandoned,finished,interested,paused,queued,reading,reread
 ---
 
 Review in progress!
