@@ -69,6 +69,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/eye_world.html";
+            },},{id: "books-the-fires-of-heaven",
+          title: 'The Fires of Heaven',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/fires_of_heaven.html";
             },},{id: "books-foundation",
           title: 'Foundation',
           description: "",
@@ -109,6 +114,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/nordic_socialism.html";
+            },},{id: "books-the-promise-of-canada-people-and-ideas-that-have-shaped-our-country",
+          title: 'The Promise of Canada: People and Ideas That Have Shaped Our Country',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/promise_of_canada.html";
+            },},{id: "books-revolusi-indonesia-and-the-birth-of-the-modern-world",
+          title: 'Revolusi: Indonesia and the Birth of the Modern World',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/revolusi.html";
             },},{id: "books-second-foundation",
           title: 'Second Foundation',
           description: "",
