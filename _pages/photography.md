@@ -26,7 +26,7 @@ I try my best to not try too hard and just let myself take picture of whatever c
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_photography = site.photography | where: "category", category %}
-  {% assign sorted_photography = categorized_photography | sort: "importance" %}
+  {% assign sorted_photography = categorized_photography | where_exp: "p", "p.published != false" | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
@@ -49,7 +49,7 @@ I try my best to not try too hard and just let myself take picture of whatever c
 
 <!-- Display projects without categories -->
 
-{% assign sorted_photography = site.photography | sort: "importance" %}
+{% assign sorted_photography = site.photography | where_exp: "p", "p.published != false" | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 
