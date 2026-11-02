@@ -172,21 +172,6 @@ ninja.data = [{
           description: "A collection of photos taken in Philly, Summer 2023.",
           section: "Photography",handler: () => {
               window.location.href = "/photography/phillysu23.html";
-            },},{id: "photography-providence",
-          title: 'Providence',
-          description: "A collection of photos taken in Providence, Spring 2024.",
-          section: "Photography",handler: () => {
-              window.location.href = "/photography/provsp24.html";
-            },},{id: "photography-san-francisco",
-          title: 'San Francisco',
-          description: "A collection of photos taken in San Franciso, Fall 2024.",
-          section: "Photography",handler: () => {
-              window.location.href = "/photography/sanfranf24.html";
-            },},{id: "photography-sturbridge",
-          title: 'Sturbridge',
-          description: "A collection of photos taken in Sturbridge,  Massachusetts, Summer 2023.",
-          section: "Photography",handler: () => {
-              window.location.href = "/photography/sturbsu23.html";
             },},{id: "photography-taiwan",
           title: 'Taiwan',
           description: "A collection of photos taken in Taiwan, Spring 2025.",
